@@ -20,6 +20,8 @@ add_executable(main
         Character.cpp
         Enemy.cpp
         EnemyManager.cpp
+        HighScoreLabel.cpp
+        HighScoreLabel.hpp
 )
 
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)

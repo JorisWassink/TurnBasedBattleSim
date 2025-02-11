@@ -20,6 +20,7 @@ private:
 	sf::Vector2f cPosition;
 
 public:
+	int maxHealth;
 	int health;
 	int strength;
 	int agility;

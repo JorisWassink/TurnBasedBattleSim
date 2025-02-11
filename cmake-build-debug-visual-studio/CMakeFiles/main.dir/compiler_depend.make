@@ -1180,6 +1180,215 @@ CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\inst
 CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 
 
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.cpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals_core.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sal.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\concurrencysal.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vadefs.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xkeycheck.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\exception"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_new_debug.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_new.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\crtdefs.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\use_ansi.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\type_traits"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtr1common"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdint"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\malloc.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_exception.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\eh.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_terminate.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\tuple"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\initializer_list"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\typeinfo"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_typeinfo.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cfloat"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\climits"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cwchar"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdio"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_string.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wconio.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wctype.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\stat.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.inl.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\new"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xatomic.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstring"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xpolymorphic_allocator.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_bit_utils.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_sanitizer_annotate_container.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xnode_handle.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Config.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Clock.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Export.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Err.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ios"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocnum"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\streambuf"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xiosbase"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\system_error"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_system_error_abi.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cerrno"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_string_view.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xcall_once.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xerrc.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xthreads.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_threads_core.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtimec.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ctime"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocale"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfacet"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocinfo"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_xlocinfo_types.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cctype"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\ctype.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\clocale"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\FileInputStream.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\InputStream.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\NonCopyable.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\string"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Lock.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\MemoryInputStream.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Mutex.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Sleep.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\String.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Utf.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_heap_algorithms.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_minmax.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\locale"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocbuf"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocmes"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocmon"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xloctime"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Utf.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\String.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Thread.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Thread.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\ThreadLocal.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\ThreadLocalPtr.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\ThreadLocalPtr.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Vector2.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Vector2.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Vector3.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Vector3.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Clipboard.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Export.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Context.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\GlResource.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\ContextSettings.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Cursor.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Event.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Joystick.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Keyboard.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Mouse.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Sensor.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Touch.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\VideoMode.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Window.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\WindowBase.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\Vulkan.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\WindowHandle.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window\WindowStyle.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\BlendMode.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Export.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\CircleShape.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Shape.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Drawable.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\RenderStates.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Transform.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Rect.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Rect.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Transformable.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\VertexArray.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Vertex.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Color.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\PrimitiveType.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\ConvexShape.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Font.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Glyph.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Texture.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Image.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtree"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\RectangleShape.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\RenderTarget.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\View.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\RenderTexture.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\RenderWindow.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Shader.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Glsl.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Glsl.inl
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Sprite.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Text.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\VertexBuffer.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
+
+
 CMakeFiles\main.dir\PlayButton.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayButton.cpp
 CMakeFiles\main.dir\PlayButton.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayButton.hpp
 CMakeFiles\main.dir\PlayButton.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
@@ -2393,6 +2602,7 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\Turn
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\UI.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayerStats.hpp
 
 
@@ -2971,6 +3181,8 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\player.hpp:
 
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h":
 
+C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp:
+
 "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\streambuf":
@@ -3273,11 +3485,13 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.cpp:
 
+C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.cpp:
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream":
+
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayButton.cpp:
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayButton.hpp:
-
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\chrono":
 

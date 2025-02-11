@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/GameObject.cpp.obj.d"
   "CMakeFiles/main.dir/GenericLabel.cpp.obj"
   "CMakeFiles/main.dir/GenericLabel.cpp.obj.d"
+  "CMakeFiles/main.dir/HighScoreLabel.cpp.obj"
+  "CMakeFiles/main.dir/HighScoreLabel.cpp.obj.d"
   "CMakeFiles/main.dir/PlayButton.cpp.obj"
   "CMakeFiles/main.dir/PlayButton.cpp.obj.d"
   "CMakeFiles/main.dir/Player.cpp.obj"

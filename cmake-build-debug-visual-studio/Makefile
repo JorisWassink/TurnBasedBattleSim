@@ -262,6 +262,30 @@ GenericLabel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\GenericLabel.cpp.s
 .PHONY : GenericLabel.cpp.s
 
+HighScoreLabel.obj: HighScoreLabel.cpp.obj
+.PHONY : HighScoreLabel.obj
+
+# target to build an object file
+HighScoreLabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\HighScoreLabel.cpp.obj
+.PHONY : HighScoreLabel.cpp.obj
+
+HighScoreLabel.i: HighScoreLabel.cpp.i
+.PHONY : HighScoreLabel.i
+
+# target to preprocess a source file
+HighScoreLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\HighScoreLabel.cpp.i
+.PHONY : HighScoreLabel.cpp.i
+
+HighScoreLabel.s: HighScoreLabel.cpp.s
+.PHONY : HighScoreLabel.s
+
+# target to generate assembly for a file
+HighScoreLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\HighScoreLabel.cpp.s
+.PHONY : HighScoreLabel.cpp.s
+
 PlayButton.obj: PlayButton.cpp.obj
 .PHONY : PlayButton.obj
 
@@ -481,6 +505,9 @@ help:
 	@echo ... GenericLabel.obj
 	@echo ... GenericLabel.i
 	@echo ... GenericLabel.s
+	@echo ... HighScoreLabel.obj
+	@echo ... HighScoreLabel.i
+	@echo ... HighScoreLabel.s
 	@echo ... PlayButton.obj
 	@echo ... PlayButton.i
 	@echo ... PlayButton.s

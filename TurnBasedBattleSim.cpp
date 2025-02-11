@@ -1,8 +1,5 @@
 #pragma once
-#include <SFML/Config.hpp>
 #include <SFML/Graphics.hpp>
-#include <iostream>
-#include <fstream>
 #include "Scene.hpp"
 #include "QuitButton.hpp"
 #include "WriteButton.hpp"
@@ -12,115 +9,18 @@
 #include "Enemy.hpp"
 #include "UI.hpp"
 #include "EnemyManager.hpp"
+#include "HighScoreLabel.hpp"
 #include "PlayerStats.hpp"
 
-bool death = false;
-int highScoreAmount = 5;
-int currentScore = 0;
+static bool death = false;
+static int highScoreAmount = 5;
+static int currentScore = 0;
 
-
-
-
-void SetHighScores(int highScoreAmount, int currentScore) {
-    int* highScores = new int[highScoreAmount];
-
-    //how to change directionary
-    std::ifstream myFileRead("text.cmgt");
-
-    if (myFileRead) {
-        // Reset the cursor to the beginning of the file to read high scores
-        myFileRead.clear(); // Clear EOF flag
-        myFileRead.seekg(0); // Move cursor to the start of the file
-       
-
-        for (int i = 0; i < highScoreAmount; ++i) {
-            if (!(myFileRead >> highScores[i])) {
-                std::cerr << "Error reading number " << i + 1 << std::endl;
-                //404 meaning an error
-                highScores[i] = 404;
-            }
-        }
-
-        for (int i = 0; i < highScoreAmount; ++i) {
-            if (highScores[i] < currentScore) {
-                int j = highScores[i];
-
-                highScores[i] = currentScore;
-                currentScore = j;
-            }
-        }
-    }
-    else {
-        printf("something went wrong opening the file, it might've been deleted, im not making a new one with reset scores \n");
-        std::ofstream myFileWrite("text.cmgt");
-
-        for (unsigned int i = 1; i < 6; i++) {
-            myFileWrite << "0 ";
-        }
-        myFileWrite.close();
-    }
-
-    std::ofstream myFileWrite("text.cmgt");
-
-    for (unsigned int i = 0; i < 5; i++) {
-        myFileWrite << std::to_string(highScores[i]) + " ";
-    }
-    myFileWrite.close();
-
-    myFileRead.close();
-    delete[] highScores;
-}
-
-
-
-std::string GetHighScores(int highScoreAmount) {
-    int* highScores = new int[highScoreAmount];
-
-    //how to change directionary
-    std::ifstream myFileRead("text.cmgt");
-
-    if (myFileRead) {
-        // Reset the cursor to the beginning of the file to read high scores
-        myFileRead.clear(); // Clear EOF flag
-        myFileRead.seekg(0); // Move cursor to the start of the file
-
-        for (int i = 0; i < highScoreAmount; ++i) {
-            if (!(myFileRead >> highScores[i])) {
-                std::cerr << "Error reading number " << i + 1 << std::endl;
-                //404 meaning an error
-                highScores[i] = 404;
-            }
-        }
-    }
-    else {
-        printf("something went wrong opening the file, it mightve been deleted, im now making a new one with reset scores \n");
-        std::ofstream myFileWrite("text.cmgt");
-
-        for (unsigned int i = 1; i < 6; i++) {
-            myFileWrite << "0 ";
-        }
-        myFileWrite.close();
-        return GetHighScores(highScoreAmount);
-    }
-
-
-    std::string highScoreText;
-
-    for (unsigned int i = 0; i < highScoreAmount; i++)
-    {
-        highScoreText += "Highscore " + std::to_string(i + 1) + ": " + std::to_string(highScores[i]) + "\n";
-    }
-
-    myFileRead.close();
-    delete[] highScores;
-
-    return highScoreText;
-}
 
 void Player::CheckDeath() {
     if (health <= 0) {
         death = true;
-        SetHighScores(highScoreAmount, pScore);
+        HighScoreLabel::SetHighScores(highScoreAmount, pScore);
         currentScore = pScore;
         pScore = 0;
         Initialize(body.getPosition(), body.getScale(), body.getColor());
@@ -134,22 +34,19 @@ int main() {
 
     sf::RenderWindow window(sf::VideoMode(screenWidth, screenHeight), "epic game");
     sf::Font font;
-    
-    
-    font.loadFromFile("arial.ttf");
-
-    std::string highScoresText = GetHighScores(highScoreAmount);
 
     Scene mainMenu("MainMenu");
     Scene characterScene("characterSelect001");
     Scene levelOneScene("level1");
     Scene GameOverScene("GameOver001");
+    Scene* currentScene = &mainMenu;
+
 
 #pragma region mainmenu
     GenericLabel title("Joris' Super Awesome cool Battle Simulator", sf::Vector2f(screenWidth / 2, 100));
     GenericLabel credit("(Art assets by Iben the art dude)", sf::Vector2f(screenWidth / 2, 125));
 
-    GenericLabel highScores(highScoresText, sf::Vector2f(90, 90));
+    HighScoreLabel highScores("highScoreText001", sf::Vector2f(90, 90), font, sf::Color::Green, window, "text.cmgt");
     
     WriteButton writeButton("lodButton", font, "RESET SCORES",
         sf::Vector2f(200.0f, 50.0f),
@@ -240,8 +137,7 @@ int main() {
 #pragma endregion
 
 
-    Scene* currentScene = &mainMenu;
-
+    font.loadFromFile("arial.ttf");
 
     selectButton.setButtonAction([&]() {
         currentScene = &characterScene;
@@ -280,7 +176,7 @@ int main() {
                 ui.HandleObjectEvents(event, window);
             }
         }
-        highScores.textStr = GetHighScores(5);
+        highScores.textStr = HighScoreLabel::GetHighScores(5);
         window.clear();
         currentScene->render(window);
         currentScene->update();

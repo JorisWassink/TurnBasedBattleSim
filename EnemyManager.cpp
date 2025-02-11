@@ -17,7 +17,7 @@ std::map<Action, float> utilities = {
 EnemyManager::EnemyManager(std::string identifier, sf::Vector2f location, GenericLabel& textLabel) : identifier(identifier), location(location), label(textLabel)
 {
 
-    texture.loadFromFile("textures/player1.png");
+    texture.loadFromFile("textures/Evil.png");
     currentEnemy = new Enemy(sf::Vector2f(location.x + texture.getSize().x, location.y),
         sf::Vector2f(.5f, .5f),
         sf::Color::White, *this, texture);
@@ -48,14 +48,14 @@ std::string EnemyManager::getIdentifier() const {
 }
 
 Action getHighestAction(const std::map<Action, float>& actionMap) {
-    Action highestAction = actionMap.begin()->first;  // Begin met de eerste actie
-    int highestValue = actionMap.begin()->second;  // Begin met de waarde van de eerste actie
+    Action highestAction = actionMap.begin()->first;
+    int highestValue = actionMap.begin()->second;
 
-    // Door de map heen lopen om de actie met de hoogste waarde te vinden
+
     for (const auto& entry : actionMap) {
         if (entry.second > highestValue) {
-            highestAction = entry.first;  // Bijwerken van de actie met de hoogste waarde
-            highestValue = entry.second;  // Bijwerken van de hoogste waarde
+            highestAction = entry.first;
+            highestValue = entry.second;
         }
     }
 
@@ -63,8 +63,10 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
 }
 
 void EnemyManager::CalculateUtilities() {
-    utilities[RECOVER] = .9f;
-    utilities[PREPARE] = 1.5f;
+    utilities[RECOVER] = -(currentEnemy->health / currentEnemy->maxHealth) + 1;
+    utilities[ATTACK] = .5f;
+    printf("current health is %d out of %d \n", currentEnemy->health, currentEnemy->maxHealth);
+    printf("healing priority is %f\n", utilities[RECOVER]);
 }
 
 
@@ -89,27 +91,6 @@ void EnemyManager::EnemyTurn(Player* target) {
     }
     target->playerTurn = true;
     label.textStr += "\rYour Turn!\n";
-
-
-    // int actionEnemyChance = random(1, 100);
-    // if (actionEnemyChance < EnemyManager::TREMBLE_CHANCE) {
-    //     currentEnemy->Tremble(label);
-    // }
-    // else if (actionEnemyChance < 20) {
-    //     currentEnemy->Recover(label);
-    // }
-    // else if (actionEnemyChance < 40) {
-    //     currentEnemy->CastMagic(label, target);
-    // }
-    // else if (actionEnemyChance < 65) {
-    //     currentEnemy->Prepare(label);
-    // }
-    // else if (actionEnemyChance > 65){
-    //     currentEnemy->Attack(label, target);
-    // }
-    // target->playerTurn = true;
-    // label.textStr += "\rYour Turn!\n";
-
 }
 
 

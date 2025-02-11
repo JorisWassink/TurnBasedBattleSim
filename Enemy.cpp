@@ -47,7 +47,8 @@ void Enemy::SetStats() {
 		}
 	}
 
-	health = strength * 3;
+	maxHealth = strength * 3;
+	health = maxHealth;
 	sanity = wits * 2;
 }
 

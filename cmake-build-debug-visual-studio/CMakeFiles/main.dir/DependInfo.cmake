@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/EnemyManager.cpp" "CMakeFiles/main.dir/EnemyManager.cpp.obj" "msvc" "CMakeFiles/main.dir/EnemyManager.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.cpp" "CMakeFiles/main.dir/GameObject.cpp.obj" "msvc" "CMakeFiles/main.dir/GameObject.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.cpp" "CMakeFiles/main.dir/GenericLabel.cpp.obj" "msvc" "CMakeFiles/main.dir/GenericLabel.cpp.obj.d"
+  "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/HighScoreLabel.cpp" "CMakeFiles/main.dir/HighScoreLabel.cpp.obj" "msvc" "CMakeFiles/main.dir/HighScoreLabel.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/PlayButton.cpp" "CMakeFiles/main.dir/PlayButton.cpp.obj" "msvc" "CMakeFiles/main.dir/PlayButton.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Player.cpp" "CMakeFiles/main.dir/Player.cpp.obj" "msvc" "CMakeFiles/main.dir/Player.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/PlayerStats.cpp" "CMakeFiles/main.dir/PlayerStats.cpp.obj" "msvc" "CMakeFiles/main.dir/PlayerStats.cpp.obj.d"
