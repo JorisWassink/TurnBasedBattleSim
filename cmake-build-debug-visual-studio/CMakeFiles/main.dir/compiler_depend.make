@@ -2386,10 +2386,10 @@ CMakeFiles\main.dir\Scene.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSi
 
 
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\TurnBasedBattleSim.cpp
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Config.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Config.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Clock.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Export.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp
@@ -2580,10 +2580,6 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpk
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Sprite.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\Text.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\VertexBuffer.hpp
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Scene.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\QuitButton.hpp
@@ -2600,6 +2596,8 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\Turn
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\UI.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp

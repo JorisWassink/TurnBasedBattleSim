@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject" -B "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\cmake-build-debug"
--- Found SFML 2.6.2 in C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml
--- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/CppFinalProject/CppFinalProject/cmake-build-debug

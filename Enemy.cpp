@@ -29,7 +29,7 @@ void Enemy::SetStats() {
 	agility = 0;
 	wits = 1;
 
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		switch (random(1, 3)) {
 		case 1:

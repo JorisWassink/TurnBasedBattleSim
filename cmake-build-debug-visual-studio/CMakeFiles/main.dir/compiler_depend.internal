@@ -2387,10 +2387,10 @@ CMakeFiles/main.dir/Scene.cpp.obj
 
 CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/TurnBasedBattleSim.cpp
- C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Config.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Window.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System.hpp
+ C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Config.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System/Clock.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System/Export.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System/Time.hpp
@@ -2581,10 +2581,6 @@ CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Sprite.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Text.hpp
  C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/VertexBuffer.hpp
- C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iostream
- C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream
- C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/fstream
- C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/__msvc_filebuf.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Scene.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/gameObject.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/QuitButton.hpp
@@ -2601,6 +2597,8 @@ CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Character.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Enemy.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iostream
+ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/UI.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/EnemyManager.hpp
  C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/HighScoreLabel.hpp
