@@ -1,4 +1,4 @@
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/scene.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/scene.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/string
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/yvals_core.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/vcruntime.h
@@ -146,4 +146,4 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.3443
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xloctime
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System/Utf.inl
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System/String.inl
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/gameObject.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/gameObject.hpp

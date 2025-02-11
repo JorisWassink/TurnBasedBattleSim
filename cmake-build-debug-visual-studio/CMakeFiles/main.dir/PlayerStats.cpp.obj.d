@@ -1,4 +1,4 @@
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/PlayerStats.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/PlayerStats.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Window.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System.hpp
@@ -193,16 +193,16 @@ C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Gl
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Sprite.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Text.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/VertexBuffer.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/functional
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/unordered_map
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xhash
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/list
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xbit_ops.h
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iostream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/Character.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Character.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
 C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt/math.h

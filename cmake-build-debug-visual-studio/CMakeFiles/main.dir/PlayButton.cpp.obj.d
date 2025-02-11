@@ -1,4 +1,4 @@
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/PlayButton.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/PlayButton.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Window.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System.hpp
@@ -198,9 +198,9 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.3443
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xhash
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/list
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xbit_ops.h
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/Scene.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Scene.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/fstream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/__msvc_filebuf.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream

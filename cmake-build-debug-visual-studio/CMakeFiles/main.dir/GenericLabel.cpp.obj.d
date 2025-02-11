@@ -1,4 +1,4 @@
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Window.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/System.hpp
@@ -193,4 +193,4 @@ C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Gl
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Sprite.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/Text.hpp
 C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/include/SFML/Graphics/VertexBuffer.hpp
-C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp

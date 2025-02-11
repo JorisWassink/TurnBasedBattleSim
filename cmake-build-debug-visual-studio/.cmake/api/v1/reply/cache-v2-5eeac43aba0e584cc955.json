@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio"
+			"value" : "c:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -463,7 +463,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -523,7 +523,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim"
+			"value" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio"
+			"value" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio"
 		},
 		{
 			"name" : "main_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim"
+			"value" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim"
 		}
 	],
 	"kind" : "cache",

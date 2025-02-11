@@ -10,7 +10,7 @@ Enemy::Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyMan
 	Initialize(manage, position, size, color);
 }
 
-Enemy::~Enemy() {}
+Enemy::~Enemy() = default;
 
 void Enemy::update() {}
 
@@ -51,7 +51,8 @@ void Enemy::SetStats() {
 	sanity = wits * 2;
 }
 
-void Enemy::Attack(GenericLabel& label, Player* target) {
+void Enemy::
+Attack(GenericLabel& label, Player* target) {
 
 	int damage;
 	if (charged) {
@@ -77,9 +78,9 @@ void Enemy::Prepare(GenericLabel& label) {
 }
 
 void Enemy::Recover(GenericLabel& label) {
-	int healing = 0;
 	int sanit = 0;
-	if (random(1, 100) > (ceilf(wits * 1.5) * 11)) {
+	if (random(1, 100) > (ceilf(1.5 * wits) * 11)) {
+		int healing = 0;
 		healing += random(0, 3);
 		sanit += random(1, 2);
 		health += healing;

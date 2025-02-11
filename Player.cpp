@@ -59,7 +59,7 @@ void Player::Attack(Enemy* target) {
 	
 
 	playerTurn = false;
-	target->manager.PlayerActionResponse("attack", strength);
+	target->manager.PlayerActionResponse(ATTACK, strength);
 	target->manager.EnemyTurn(this);
 }
 
@@ -75,14 +75,14 @@ void Player::Recover(Enemy* target) {
 	
 	
 	playerTurn = false;
-	target->manager.PlayerActionResponse("recover", healing, sanit);
+	target->manager.PlayerActionResponse(RECOVER, healing, sanit);
 	target->manager.EnemyTurn(this);
 }
 
 void Player::Prepare(Enemy* target) {
 	charged = true;
 	playerTurn = false;
-	target->manager.PlayerActionResponse("prepare");
+	target->manager.PlayerActionResponse(PREPARE);
 	target->manager.EnemyTurn(this);
 }
 
@@ -99,7 +99,7 @@ void Player::Magic(Enemy* target) {
 	}
 	charged = false;
 	playerTurn = false;
-	target->manager.PlayerActionResponse("magic", damage);
+	target->manager.PlayerActionResponse(MAGIC, damage);
 	target->manager.EnemyTurn(this);
 }
 
@@ -113,7 +113,7 @@ void Player::Dodge(Enemy* target) {
 		damage = 0;
 	}
 	charged = false;
-	target->manager.PlayerActionResponse("dodge", damage);
+	target->manager.PlayerActionResponse(DODGE, damage);
 }
 
 

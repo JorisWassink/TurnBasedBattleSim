@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio",
-		"source" : "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim"
+		"build" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim"
 	},
 	"version" : 
 	{

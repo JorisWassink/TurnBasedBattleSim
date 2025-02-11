@@ -113,7 +113,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets-debug.cmake"
   "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets-release.cmake"
   "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets.cmake"
-  "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/CMakeLists.txt"
+  "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/CMakeLists.txt"
   "CMakeFiles/3.29.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeRCCompiler.cmake"

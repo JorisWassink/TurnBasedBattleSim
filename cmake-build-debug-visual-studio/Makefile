@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\TurnBasedBattleSim\TurnBasedBattleSim"
+CMAKE_SOURCE_DIR = C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio"
+CMAKE_BINARY_DIR = C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles" "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -27,8 +27,9 @@ public:
     void render(sf::RenderWindow& window);
     void Death();
     void EnemyTurn(Player* target);
+    void CalculateUtilities();
     Enemy* GetEnemy();
-    void PlayerActionResponse(std::string action, int amount = 0, int secondAmount = 0);
+    void PlayerActionResponse(Action action, int amount = 0, int secondAmount = 0);
     std::string getIdentifier() const;
 };
 

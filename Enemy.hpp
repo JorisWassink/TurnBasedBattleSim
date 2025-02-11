@@ -16,7 +16,7 @@ private:
 public:
 	EnemyManager& manager;
 	sf::Sprite body;
-	bool charged;
+	bool charged{};
 	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture);
 
 	~Enemy();

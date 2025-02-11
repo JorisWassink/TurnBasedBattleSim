@@ -18,6 +18,9 @@ bool death = false;
 int highScoreAmount = 5;
 int currentScore = 0;
 
+
+
+
 void SetHighScores(int highScoreAmount, int currentScore) {
     int* highScores = new int[highScoreAmount];
 
@@ -65,11 +68,9 @@ void SetHighScores(int highScoreAmount, int currentScore) {
     myFileWrite.close();
 
     myFileRead.close();
- 
-        delete[] highScores;
-    
-    
+    delete[] highScores;
 }
+
 
 
 std::string GetHighScores(int highScoreAmount) {
@@ -145,7 +146,8 @@ int main() {
     Scene GameOverScene("GameOver001");
 
 #pragma region mainmenu
-    GenericLabel title("[Insert Title here]", sf::Vector2f(screenWidth / 2, 100));
+    GenericLabel title("Joris' Super Awesome cool Battle Simulator", sf::Vector2f(screenWidth / 2, 100));
+    GenericLabel credit("(Art assets by Iben the art dude)", sf::Vector2f(screenWidth / 2, 125));
 
     GenericLabel highScores(highScoresText, sf::Vector2f(90, 90));
     
@@ -163,6 +165,17 @@ int main() {
         sf::Vector2f(200.0f, 50.0f),
         sf::Color::Red, window,
         sf::Vector2f(screenWidth - 200, 1030), &mainMenu, &levelOneScene);
+
+    #pragma region AddStuff
+    mainMenu.addGameObject(writeButton);
+    mainMenu.addGameObject(title);
+    mainMenu.addGameObject(credit);
+    mainMenu.addGameObject(quitButton);
+    mainMenu.addGameObject(highScores);
+    mainMenu.addGameObject(selectButton);
+    #pragma endregion
+
+
 #pragma endregion
 
 #pragma region character select
@@ -179,13 +192,24 @@ int main() {
     PlayerStats stats("stats001", 
         sf::Vector2f(screenWidth/2, screenHeight/2),
         sf::Vector2f(300, 0));
+
+    #pragma region add stuff
+    characterScene.addGameObject(backToMenuButton);
+    characterScene.addGameObject(playButton);
+    characterScene.addGameObject(stats);
+    #pragma endregion
     
 #pragma endregion
 
 #pragma region GameOver
     GenericLabel GameOverText("Game Over\nfinal score: " + std::to_string(currentScore), sf::Vector2f(screenWidth / 2, screenHeight / 2));
+    #pragma region AddStuff
+    GameOverScene.addGameObject(GameOverText);
+    GameOverScene.addGameObject(backToMenuButton);
+    #pragma endregion
 #pragma endregion
 
+#pragma region LevelOne
     GenericLabel textLine("Fight!\n", sf::Vector2f(screenHeight / 2, screenHeight / 2));
 
     PlayButton backButton("back001", font, "back",
@@ -205,25 +229,15 @@ int main() {
 
     UI ui("ui", &player, manager.GetEnemy());
 
-    font.loadFromFile("arial.ttf");
 
     #pragma region add stuff
-    mainMenu.addGameObject(writeButton);
-    mainMenu.addGameObject(title);
-    mainMenu.addGameObject(quitButton);
-    mainMenu.addGameObject(highScores);
-    mainMenu.addGameObject(selectButton);
-    characterScene.addGameObject(backToMenuButton);
-    characterScene.addGameObject(playButton);
-    characterScene.addGameObject(stats);
     levelOneScene.addGameObject(ui);
     levelOneScene.addGameObject(backButton);
     levelOneScene.addGameObject(player);
     levelOneScene.addGameObject(manager);
     levelOneScene.addGameObject(textLine);
-    GameOverScene.addGameObject(GameOverText);
-    GameOverScene.addGameObject(backToMenuButton);
     #pragma endregion
+#pragma endregion
 
 
     Scene* currentScene = &mainMenu;
@@ -279,3 +293,4 @@ int main() {
     }
     return 0;
 }
+

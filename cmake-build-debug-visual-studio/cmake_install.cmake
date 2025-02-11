@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim
+# Install script for directory: C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/joris/Documenten/CMGT/Y2T1/Personal Portfolio 1/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
