@@ -1,6 +1,6 @@
 #include "GenericLabel.hpp"
 
-GenericLabel::GenericLabel(std::string textS, sf::Vector2f position) : GameObject("id") {
+GenericLabel::GenericLabel(const std::string &textS, const sf::Vector2f position) : GameObject("id") {
 	font.loadFromFile("arial.ttf");
 	text.setFont(font);
 	text.setCharacterSize(24);
@@ -10,10 +10,10 @@ GenericLabel::GenericLabel(std::string textS, sf::Vector2f position) : GameObjec
 	textStr = textS;
 }
 
-GenericLabel::~GenericLabel() { }
+GenericLabel::~GenericLabel() = default;
 
 void RemoveFirstLine(std::string& text) {
-	size_t pos = text.find('\n'); // Find the position of the first newline
+	const size_t pos = text.find('\n'); // Find the position of the first newline
 	if (pos != std::string::npos) {
 		text.erase(0, pos + 1); // Erase from the beginning up to the newline
 	}

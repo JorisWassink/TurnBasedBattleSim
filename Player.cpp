@@ -7,7 +7,8 @@
 
 
 
-Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture& texture) : Character(position, size, color, texture)
+Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture &texture) : Character(
+	position, size, color, texture)
 {
 	Initialize(position, size, color);
 }
@@ -19,7 +20,7 @@ void Player::Initialize(sf::Vector2f position, sf::Vector2f size, sf::Color colo
 
 }
 
-Player::~Player() {}
+Player::~Player() = default;
 
 void Player::update() 
 {

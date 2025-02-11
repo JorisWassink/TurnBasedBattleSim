@@ -406,6 +406,30 @@ Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Scene.cpp.s
 .PHONY : Scene.cpp.s
 
+SpriteObject.obj: SpriteObject.cpp.obj
+.PHONY : SpriteObject.obj
+
+# target to build an object file
+SpriteObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\SpriteObject.cpp.obj
+.PHONY : SpriteObject.cpp.obj
+
+SpriteObject.i: SpriteObject.cpp.i
+.PHONY : SpriteObject.i
+
+# target to preprocess a source file
+SpriteObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\SpriteObject.cpp.i
+.PHONY : SpriteObject.cpp.i
+
+SpriteObject.s: SpriteObject.cpp.s
+.PHONY : SpriteObject.s
+
+# target to generate assembly for a file
+SpriteObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\SpriteObject.cpp.s
+.PHONY : SpriteObject.cpp.s
+
 TurnBasedBattleSim.obj: TurnBasedBattleSim.cpp.obj
 .PHONY : TurnBasedBattleSim.obj
 
@@ -523,6 +547,9 @@ help:
 	@echo ... Scene.obj
 	@echo ... Scene.i
 	@echo ... Scene.s
+	@echo ... SpriteObject.obj
+	@echo ... SpriteObject.i
+	@echo ... SpriteObject.s
 	@echo ... TurnBasedBattleSim.obj
 	@echo ... TurnBasedBattleSim.i
 	@echo ... TurnBasedBattleSim.s

@@ -12,7 +12,7 @@ private:
 public:
 	std::string textStr;
 	sf::Vector2f lPosition;
-	GenericLabel(std::string textS = "", sf::Vector2f position = sf::Vector2f(0,0));
+	GenericLabel(const std::string &textS = "", sf::Vector2f position = sf::Vector2f(0,0));
 	~GenericLabel();
 public:
 	void render(sf::RenderWindow& Window) override;

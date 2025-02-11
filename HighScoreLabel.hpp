@@ -11,8 +11,9 @@ private:
     sf::Font& font;
     sf::RenderWindow window;
 public:
-    HighScoreLabel(std::string identifier, sf::Vector2f position, sf::Font& font, sf::Color textColor, sf::RenderWindow& window, std::string doc);
-    ~HighScoreLabel();
+    HighScoreLabel(std::string identifier, sf::Vector2f position, sf::Font &font, sf::Color textColor,
+                   sf::RenderWindow &window, std::string doc);
+    ~HighScoreLabel() override;
 
     void update() override;
     void render(sf::RenderWindow& window) override;

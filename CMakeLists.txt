@@ -22,6 +22,8 @@ add_executable(main
         EnemyManager.cpp
         HighScoreLabel.cpp
         HighScoreLabel.hpp
+        SpriteObject.cpp
+        SpriteObject.hpp
 )
 
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)

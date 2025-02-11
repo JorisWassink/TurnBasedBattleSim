@@ -11,6 +11,7 @@
 #include "EnemyManager.hpp"
 #include "HighScoreLabel.hpp"
 #include "PlayerStats.hpp"
+#include "SpriteObject.hpp"
 
 static bool death = false;
 static int highScoreAmount = 5;
@@ -35,7 +36,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(screenWidth, screenHeight), "epic game");
     sf::Font font;
 
-    Scene mainMenu("MainMenu");
+    Scene mainMenu("MainMenu001");
     Scene characterScene("characterSelect001");
     Scene levelOneScene("level1");
     Scene GameOverScene("GameOver001");
@@ -43,17 +44,22 @@ int main() {
 
 
 #pragma region mainmenu
+    sf::Texture bgTexture;
+    bgTexture.loadFromFile("Textures/bg.png");
+    sf::Sprite background(bgTexture, sf::IntRect(0, 0, screenWidth, screenHeight));
+    SpriteObject bgObject("background001", background);
+
     GenericLabel title("Joris' Super Awesome cool Battle Simulator", sf::Vector2f(screenWidth / 2, 100));
     GenericLabel credit("(Art assets by Iben the art dude)", sf::Vector2f(screenWidth / 2, 125));
 
-    HighScoreLabel highScores("highScoreText001", sf::Vector2f(90, 90), font, sf::Color::Green, window, "text.cmgt");
+    HighScoreLabel highScores("highScoreText001", sf::Vector2f(20, 90), font, sf::Color::Green, window, "text.cmgt");
     
-    WriteButton writeButton("lodButton", font, "RESET SCORES",
+    WriteButton writeButton("loadButton001", font, "RESET SCORES",
         sf::Vector2f(200.0f, 50.0f),
         sf::Color::Red, window,
         "text.cmgt", sf::Vector2f(0, 0));
 
-    QuitButton quitButton("QuitButton1", font, "QUIT",
+    QuitButton quitButton("QuitButton001", font, "QUIT",
         sf::Vector2f(200.0f, 50.0f),
         sf::Color::Red, window,
         sf::Vector2f(1720, 0));
@@ -64,6 +70,7 @@ int main() {
         sf::Vector2f(screenWidth - 200, 1030), &mainMenu, &levelOneScene);
 
     #pragma region AddStuff
+    mainMenu.addGameObject(bgObject);
     mainMenu.addGameObject(writeButton);
     mainMenu.addGameObject(title);
     mainMenu.addGameObject(credit);
@@ -114,12 +121,12 @@ int main() {
         sf::Color::Blue, window,
         sf::Vector2f(0, 1030), &mainMenu, &levelOneScene);
 
-    sf::Texture texture;
-    texture.loadFromFile("textures/player.png");
-    texture.setSmooth(true);
+    sf::Texture playerTexture;
+    playerTexture.loadFromFile("textures/player.png");
+    playerTexture.setSmooth(true);
     Player player(sf::Vector2f(screenWidth / 5, screenHeight / 5),
         sf::Vector2f(.5f, .5f),
-        sf::Color::White, texture);
+        sf::Color::White, playerTexture);
 
 
     EnemyManager manager("manager001", sf::Vector2f(screenWidth / 2, screenHeight / 5), textLine);

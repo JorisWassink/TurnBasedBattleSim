@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/PlayerStats.cpp" "CMakeFiles/main.dir/PlayerStats.cpp.obj" "msvc" "CMakeFiles/main.dir/PlayerStats.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/QuitButton.cpp" "CMakeFiles/main.dir/QuitButton.cpp.obj" "msvc" "CMakeFiles/main.dir/QuitButton.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Scene.cpp" "CMakeFiles/main.dir/Scene.cpp.obj" "msvc" "CMakeFiles/main.dir/Scene.cpp.obj.d"
+  "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/SpriteObject.cpp" "CMakeFiles/main.dir/SpriteObject.cpp.obj" "msvc" "CMakeFiles/main.dir/SpriteObject.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/TurnBasedBattleSim.cpp" "CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj" "msvc" "CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/UI.cpp" "CMakeFiles/main.dir/UI.cpp.obj" "msvc" "CMakeFiles/main.dir/UI.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/WriteButton.cpp" "CMakeFiles/main.dir/WriteButton.cpp.obj" "msvc" "CMakeFiles/main.dir/WriteButton.cpp.obj.d"

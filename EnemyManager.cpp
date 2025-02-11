@@ -63,10 +63,11 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
 }
 
 void EnemyManager::CalculateUtilities() {
-    utilities[RECOVER] = -(currentEnemy->health / currentEnemy->maxHealth) + 1;
+    float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
+    utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
     utilities[ATTACK] = .5f;
-    printf("current health is %d out of %d \n", currentEnemy->health, currentEnemy->maxHealth);
-    printf("healing priority is %f\n", utilities[RECOVER]);
+    utilities[PREPARE] = .5f;
+    utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
 }
 
 
@@ -88,6 +89,8 @@ void EnemyManager::EnemyTurn(Player* target) {
         case RECOVER:
             currentEnemy->Recover(label);
         break;
+        default:
+            throw new std::exception;
     }
     target->playerTurn = true;
     label.textStr += "\rYour Turn!\n";

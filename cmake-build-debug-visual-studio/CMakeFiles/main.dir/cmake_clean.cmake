@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/QuitButton.cpp.obj.d"
   "CMakeFiles/main.dir/Scene.cpp.obj"
   "CMakeFiles/main.dir/Scene.cpp.obj.d"
+  "CMakeFiles/main.dir/SpriteObject.cpp.obj"
+  "CMakeFiles/main.dir/SpriteObject.cpp.obj.d"
   "CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj"
   "CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj.d"
   "CMakeFiles/main.dir/UI.cpp.obj"
