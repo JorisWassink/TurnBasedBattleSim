@@ -1,0 +1,1 @@
+ "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/sfml-graphics-d.lib" "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/sfml-window-d.lib" "C:/Users/joris/.vcpkg-clion/vcpkg/installed/x64-windows/debug/lib/sfml-system-d.lib" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

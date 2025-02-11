@@ -1,0 +1,37 @@
+﻿  Button.cpp
+  Button.hpp
+  CppFinalProject.cpp
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\CppFinalProject.cpp(108,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\CppFinalProject.cpp(133,56): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\CppFinalProject.cpp(133,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Enemy.cpp
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Enemy.cpp(67,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Enemy.cpp(67,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Enemy.cpp(70,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Enemy.cpp(70,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Enemy.cpp(91,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  EnemyManager.cpp
+  GameObject.cpp
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\GameObject.cpp(19,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  GenericLabel.cpp
+  PlayButton.cpp
+  Character.cpp
+  Player.cpp
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Player.cpp(44,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Player.cpp(44,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Player.cpp(47,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Player.cpp(47,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\Player.cpp(68,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  PlayerStats.cpp
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\PlayerStats.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  QuitButton.cpp
+  Scene.cpp
+  UI.cpp
+  WriteButton.cpp
+  WriteButton.hpp
+  Generating Code...
+x64\Debug\Button.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\WriteButton.obj : warning LNK4042: object specified more than once; extras ignored
+  CppFinalProject.vcxproj -> C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\x64\Debug\CppFinalProject.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

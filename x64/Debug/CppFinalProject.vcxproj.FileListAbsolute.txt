@@ -1,0 +1,3 @@
+C:\Users\joris\OneDrive\Documenten\CMGT\Y2T1\C++\CppFinalProject\CppFinalProject\x64\Debug\CppFinalProject.vcxproj.CopyComplete
+C:\Users\joris\Documenten\CMGT\Y2T1\C++\CppFinalProject\CppFinalProject\x64\Debug\CppFinal.B3AA92FB.Up2Date
+C:\Users\joris\Documenten\CMGT\Y2T1\Personal Portfolio 1\CppFinalProject\CppFinalProject\x64\Debug\CppFinal.B3AA92FB.Up2Date
