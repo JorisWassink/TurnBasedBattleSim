@@ -21,7 +21,7 @@ void RemoveFirstLine(std::string& text) {
 
 void GenericLabel::render(sf::RenderWindow& window) {
 	text.setString(textStr);
-	text.setPosition(lPosition);
+	text.setPosition(lPosition.x - (text.getLocalBounds().width/2.0f), lPosition.y);
 	window.draw(text);
 }
 
