@@ -87,7 +87,7 @@ void Enemy::Recover(GenericLabel& label) {
 		health += healing;
 		sanity += sanit;
 	}
-	label.textStr += "\renemy recovers " + std::to_string(sanit) + "sanity and " + std::to_string(wits) + " HP!\n";
+	label.textStr += "\renemy recovers " + std::to_string(sanit) + " sanity and " + std::to_string(wits) + " HP!\n";
 }
 
 void Enemy::CastMagic(GenericLabel& label, Player* target) {

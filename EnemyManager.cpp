@@ -48,6 +48,44 @@ std::string EnemyManager::getIdentifier() const {
 }
 
 Action getHighestAction(const std::map<Action, float>& actionMap) {
+
+    float a = -1;
+    float b = 0;
+    float c;
+
+    float totalValue = 0.0f;
+
+    for (const auto& entry : actionMap) {
+        totalValue += entry.second;
+    }
+
+    c = totalValue;
+
+    //printf("totalValue: %f\n", totalValue);
+
+    float disc = (totalValue * totalValue) - (4 * a * c);
+
+    //printf("Discriminant: %f\n", disc);
+
+    if (disc <= 0)
+        throw std::runtime_error("Discriminant must be positive!");
+
+    float minRandom = (-totalValue + sqrt(disc))/(-2);
+    float maxRandom = (-totalValue - sqrt(disc))/(-2);
+
+    printf("minRandom: %f\n", minRandom);
+    printf("maxRandom: %f\n", maxRandom);
+
+    float randomValue = randomf(minRandom, maxRandom);
+
+    printf("randomValue: %f\n", randomValue);
+
+    float result = (a * (randomValue * randomValue)) +  c;
+
+    printf("result: %f\n", result);
+
+
+
     Action highestAction = actionMap.begin()->first;
     int highestValue = actionMap.begin()->second;
 
@@ -65,7 +103,7 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
 void EnemyManager::CalculateUtilities() {
     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
     utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
-    utilities[ATTACK] = .5f;
+    utilities[ATTACK] = .6f;
     utilities[PREPARE] = .5f;
     utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
 }
