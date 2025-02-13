@@ -13,14 +13,6 @@ inline int random(int lowest, int highest) {
 	return rando;
 }
 
-// inline float randomf(float lowest, float highest) {
-// 	if (lowest > highest)
-// 		std::swap(lowest, highest);
-//
-//     float rando = ((float)rand() / (float)RAND_MAX) * (highest - lowest) + lowest;
-// 	return rando;
-// }
-
 inline float randomf(float lowest, float highest) {
 	if (lowest > highest) {
 		std::swap(lowest, highest);

@@ -1,5 +1,8 @@
 #pragma once
 #include "EnemyManager.hpp"
+
+#include <fstream>
+
 #include "Button.hpp"
 #include "Player.hpp"
 #include "Enemy.hpp"
@@ -32,11 +35,7 @@ void EnemyManager::render(sf::RenderWindow& window) {
     currentEnemy->render(window);
 }
 
-void EnemyManager::update() {
-    if (currentEnemy != nullptr) {
-        currentEnemy->update();
-    }
-}
+
 
 Enemy* EnemyManager::GetEnemy() 
 {
@@ -49,9 +48,6 @@ std::string EnemyManager::getIdentifier() const {
 
 Action getHighestAction(const std::map<Action, float>& actionMap) {
 
-    float a = -1;
-    float b = 0;
-    float c;
 
     float totalValue = 0.0f;
 
@@ -59,55 +55,32 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
         totalValue += entry.second;
     }
 
-    c = totalValue;
+    float randomValue = randomf(0, totalValue);
 
-    //printf("totalValue: %f\n", totalValue);
-
-    float disc = (totalValue * totalValue) - (4 * a * c);
-
-    //printf("Discriminant: %f\n", disc);
-
-    if (disc <= 0)
-        throw std::runtime_error("Discriminant must be positive!");
-
-    float minRandom = (-totalValue + sqrt(disc))/(-2);
-    float maxRandom = (-totalValue - sqrt(disc))/(-2);
-
-    printf("minRandom: %f\n", minRandom);
-    printf("maxRandom: %f\n", maxRandom);
-
-    float randomValue = randomf(minRandom, maxRandom);
-
-    printf("randomValue: %f\n", randomValue);
-
-    float result = (a * (randomValue * randomValue)) +  c;
-
-    printf("result: %f\n", result);
-
-
-
-    Action highestAction = actionMap.begin()->first;
-    int highestValue = actionMap.begin()->second;
-
-
+    float buffer = 0;
     for (const auto& entry : actionMap) {
-        if (entry.second > highestValue) {
-            highestAction = entry.first;
-            highestValue = entry.second;
-        }
-    }
+        if ((entry.second + buffer) > randomValue) {
 
-    return highestAction;
+            std::ofstream file("results.csv", std::ios::app); // Append mode
+            if (file.is_open()) {
+                file << entry.first << "\n"; // Write action name & result
+            } else {
+                std::cerr << "Failed to open results.csv\n";
+            }
+
+            return entry.first;
+        }
+        buffer += entry.second;
+    }
 }
 
 void EnemyManager::CalculateUtilities() {
-    float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
-    utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
-    utilities[ATTACK] = .6f;
-    utilities[PREPARE] = .5f;
-    utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
+     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
+     utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
+     utilities[ATTACK] = .6f;
+     utilities[PREPARE] = .5f;
+     utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
 }
-
 
 void EnemyManager::EnemyTurn(Player* target) {
     label.textStr += "\rEnemy Turn!\n";
@@ -117,15 +90,19 @@ void EnemyManager::EnemyTurn(Player* target) {
     switch (getHighestAction(utilities)) {
         case ATTACK:
             currentEnemy->Attack(label, target);
+            printf("Attack");
         break;
         case PREPARE:
             currentEnemy->Prepare(label);
+        printf("Prepare");
         break;
         case MAGIC:
             currentEnemy->CastMagic(label, target);
+            printf("Cast Magic");
         break;
         case RECOVER:
             currentEnemy->Recover(label);
+        printf("Recover");
         break;
         default:
             throw new std::exception;
@@ -134,7 +111,11 @@ void EnemyManager::EnemyTurn(Player* target) {
     label.textStr += "\rYour Turn!\n";
 }
 
-
+void EnemyManager::update() {
+    if (currentEnemy != nullptr) {
+        currentEnemy->update();
+    }
+}
 
 
 void EnemyManager::PlayerActionResponse(enum Action action , int amount, int secondAmount) {
