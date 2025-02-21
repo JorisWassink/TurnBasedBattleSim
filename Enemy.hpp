@@ -10,13 +10,13 @@ class Player;
 
 class Enemy : public Character {
 private:
-	
-	
+
 
 public:
 	EnemyManager& manager;
 	sf::Sprite body;
 	bool charged{};
+	float agressiveness = 1;
 	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture);
 
 	~Enemy();

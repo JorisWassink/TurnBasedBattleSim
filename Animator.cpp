@@ -21,3 +21,26 @@ bool Animator::Backflip(float speed) {
 
     return false;
 }
+
+
+bool front = false;
+
+
+bool Animator::HeadButt(float speed) {
+    constexpr float maxRotation = 45.0f;
+    constexpr float resetThreshold = 5.0f;
+
+    printf("lets see, the current rotation is currently %f\n", body->getRotation());
+
+    body->rotate(front ? -speed : speed);
+
+    if (body->getRotation() > maxRotation) {
+        front = true;
+    } else if (front && body->getRotation() < resetThreshold) {
+        body->setRotation(0);
+        front = false;
+        return true;
+    }
+    return false;
+}
+

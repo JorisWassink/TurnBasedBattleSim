@@ -9,7 +9,7 @@ public:
     Animator();
     void setBody(sf::Sprite& bod);
     bool Backflip(float speed);
-
+    bool HeadButt(float speed);
 private:
     sf::Sprite* body;
 };

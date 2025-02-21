@@ -53,6 +53,10 @@ void Enemy::SetStats() {
 }
 
 void Enemy::Attack(GenericLabel& label, Player* target)  {
+	bool attackingDone = false;
+	while(attackingDone == false) {
+		attackingDone = animator.HeadButt(.1f);
+	}
 
 	int damage;
 	if (charged) {
@@ -75,7 +79,7 @@ void Enemy::Attack(GenericLabel& label, Player* target)  {
 void Enemy::Prepare(GenericLabel& label) {
 	bool spinningDone = false;
 	while(spinningDone == false) {
-		spinningDone = animator.Backflip(.2f);
+		spinningDone = animator.Backflip(.1f);
 	}
 	charged = true;
 	label.textStr += "\renemy prepares\n";

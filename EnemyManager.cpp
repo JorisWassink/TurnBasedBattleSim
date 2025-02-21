@@ -78,19 +78,37 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
     }
 }
 
-void EnemyManager::CalculateUtilities() {
-     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
-     utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
-     utilities[ATTACK] = .6f;
-     utilities[PREPARE] = 1.6f;
-     utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
+void EnemyManager::CalculateUtilities(Player* target) {
+    float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
+    float targetHealthPercentage = target->health / target->maxHealth;
+    printf("Player Health percentage: %f\n", targetHealthPercentage);
+
+
+    float recoverChance = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
+    float attackChance = (1 - targetHealthPercentage) / ((2 * targetHealthPercentage) + 1) * currentEnemy->agressiveness;
+    float prepareChance = .2f * currentEnemy->agressiveness;
+    float magicChance = currentEnemy->charged ? .9f : .2f;
+
+    utilities[RECOVER] = recoverChance;
+    printf("RecoverChance: %f\n", recoverChance);
+
+    utilities[ATTACK] = attackChance;
+    printf("AttackChance: %f\n", attackChance);
+
+    utilities[PREPARE] = prepareChance;
+    printf("PrepareChance: %f\n", prepareChance);
+
+    utilities[MAGIC] = magicChance;
+    printf("MagicChance: %f\n", magicChance);
+
+    printf("total Utilities: %f\n", (recoverChance + attackChance + magicChance + prepareChance));
 }
 
 
 void EnemyManager::EnemyTurn(Player* target) {
     label.SetString("\rEnemy Turn!\n");
 
-    CalculateUtilities();
+    CalculateUtilities(target);
 
     Awaitable awaitable;
     awaitable([this, target] {

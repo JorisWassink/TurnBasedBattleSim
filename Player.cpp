@@ -15,6 +15,7 @@ Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Te
 
 void Player::Initialize(sf::Vector2f position, sf::Vector2f size, sf::Color color) {
 	health = strength * 3;
+	maxHealth = health;
 	sanity = wits * 2;
 	charged = false;
 
@@ -30,6 +31,7 @@ void Player::SetStats(ThreeIntegers stats) {
 	wits = stats.c;
 
 	health = strength * 3;
+	maxHealth = health;
 	sanity = wits * 2;
 }
 
