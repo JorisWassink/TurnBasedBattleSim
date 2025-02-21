@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Animator.cpp" "CMakeFiles/main.dir/Animator.cpp.obj" "msvc" "CMakeFiles/main.dir/Animator.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Button.cpp" "CMakeFiles/main.dir/Button.cpp.obj" "msvc" "CMakeFiles/main.dir/Button.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Character.cpp" "CMakeFiles/main.dir/Character.cpp.obj" "msvc" "CMakeFiles/main.dir/Character.cpp.obj.d"
   "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Enemy.cpp" "CMakeFiles/main.dir/Enemy.cpp.obj" "msvc" "CMakeFiles/main.dir/Enemy.cpp.obj.d"

@@ -378,6 +378,26 @@ CMakeFiles\main.dir\SpriteObject.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\main.dir\SpriteObject.cpp.s /c C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\SpriteObject.cpp
 <<
 
+CMakeFiles\main.dir\Animator.cpp.obj: CMakeFiles\main.dir\flags.make
+CMakeFiles\main.dir\Animator.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.cpp
+CMakeFiles\main.dir\Animator.cpp.obj: CMakeFiles\main.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/Animator.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\main.dir\Animator.cpp.obj.d --working-dir=C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio --filter-prefix="Note: including file: " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\main.dir\Animator.cpp.obj /FdCMakeFiles\main.dir\ /FS -c C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.cpp
+<<
+
+CMakeFiles\main.dir\Animator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Animator.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe > CMakeFiles\main.dir\Animator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.cpp
+<<
+
+CMakeFiles\main.dir\Animator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Animator.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\main.dir\Animator.cpp.s /c C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.cpp
+<<
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj" \
@@ -395,7 +415,8 @@ main_OBJECTS = \
 "CMakeFiles\main.dir\Enemy.cpp.obj" \
 "CMakeFiles\main.dir\EnemyManager.cpp.obj" \
 "CMakeFiles\main.dir\HighScoreLabel.cpp.obj" \
-"CMakeFiles\main.dir\SpriteObject.cpp.obj"
+"CMakeFiles\main.dir\SpriteObject.cpp.obj" \
+"CMakeFiles\main.dir\Animator.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -416,12 +437,13 @@ main.exe: CMakeFiles\main.dir\Enemy.cpp.obj
 main.exe: CMakeFiles\main.dir\EnemyManager.cpp.obj
 main.exe: CMakeFiles\main.dir\HighScoreLabel.cpp.obj
 main.exe: CMakeFiles\main.dir\SpriteObject.cpp.obj
+main.exe: CMakeFiles\main.dir\Animator.cpp.obj
 main.exe: CMakeFiles\main.dir\build.make
 main.exe: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib
 main.exe: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib
 main.exe: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib
 main.exe: CMakeFiles\main.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable main.exe"
 	"C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\main.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1442~1.344\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\main.dir\objects1.rsp @<<
  /out:main.exe /implib:main.lib /pdb:C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\cmake-build-debug-visual-studio\main.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

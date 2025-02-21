@@ -22,9 +22,7 @@ void Player::Initialize(sf::Vector2f position, sf::Vector2f size, sf::Color colo
 
 Player::~Player() = default;
 
-void Player::update() 
-{
-}
+void Player::update() {}
 
 void Player::SetStats(ThreeIntegers stats) {
 	strength = stats.a;

@@ -1,5 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+
+#include "Animator.hpp"
 #include "GameObject.hpp"
 #include "GenericLabel.hpp"
 
@@ -16,10 +18,11 @@ enum Action {
 class Character : public GameObject {
 private:
 	sf::Texture texture;
-	sf::Sprite body;
 	sf::Vector2f cPosition;
 
 public:
+	Animator animator;
+	sf::Sprite body;
 	int maxHealth;
 	int health;
 	int strength;

@@ -118,6 +118,30 @@ main\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
 .PHONY : main\fast
 
+Animator.obj: Animator.cpp.obj
+.PHONY : Animator.obj
+
+# target to build an object file
+Animator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Animator.cpp.obj
+.PHONY : Animator.cpp.obj
+
+Animator.i: Animator.cpp.i
+.PHONY : Animator.i
+
+# target to preprocess a source file
+Animator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Animator.cpp.i
+.PHONY : Animator.cpp.i
+
+Animator.s: Animator.cpp.s
+.PHONY : Animator.s
+
+# target to generate assembly for a file
+Animator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\Animator.cpp.s
+.PHONY : Animator.cpp.s
+
 Button.obj: Button.cpp.obj
 .PHONY : Button.obj
 
@@ -511,6 +535,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... Animator.obj
+	@echo ... Animator.i
+	@echo ... Animator.s
 	@echo ... Button.obj
 	@echo ... Button.i
 	@echo ... Button.s

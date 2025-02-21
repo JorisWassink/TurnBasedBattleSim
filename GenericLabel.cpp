@@ -13,11 +13,17 @@ GenericLabel::GenericLabel(const std::string &textS, const sf::Vector2f position
 GenericLabel::~GenericLabel() = default;
 
 void RemoveFirstLine(std::string& text) {
-	const size_t pos = text.find('\n'); // Find the position of the first newline
+	const size_t pos = text.find('\n');
 	if (pos != std::string::npos) {
-		text.erase(0, pos + 1); // Erase from the beginning up to the newline
+		text.erase(0, pos + 1);
 	}
 }
+
+void GenericLabel::SetString(const std::string &textS) {
+	textStr += textS;
+	text.setString(textStr);
+}
+
 
 void GenericLabel::render(sf::RenderWindow& window) {
 	text.setString(textStr);

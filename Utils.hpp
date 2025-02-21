@@ -1,7 +1,9 @@
 #pragma once
+#include <functional>
 #include <iostream>
 #include <math.h>
 #include <random>
+#include <thread>
 
 #include "Character.hpp"
 
@@ -33,3 +35,12 @@ inline Character* FastestCharacter(Character* character1, Character* character2)
 	Character* moreAgile = (character1->agility > character2->agility) ? character1 : character2;
 	return moreAgile;
 }
+
+struct Awaitable {
+	void operator()(std::function<void()> callback) {
+		std::thread([callback] {
+			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+			callback();
+		}).detach();
+	}
+};

@@ -24,6 +24,8 @@ add_executable(main
         HighScoreLabel.hpp
         SpriteObject.cpp
         SpriteObject.hpp
+        Animator.cpp
+        Animator.hpp
 )
 
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)

@@ -30,8 +30,8 @@ void Player::CheckDeath() {
 }
 
 int main() {
-    float screenWidth = 1920;
-    float screenHeight = 1080;
+    int screenWidth = 1920;
+    int screenHeight = 1080;
 
     sf::RenderWindow window(sf::VideoMode(screenWidth, screenHeight), "epic game");
     sf::Font font;
@@ -49,8 +49,8 @@ int main() {
     sf::Sprite background(bgTexture, sf::IntRect(0, 0, screenWidth, screenHeight));
     SpriteObject bgObject("background001", background);
 
-    GenericLabel title("Joris' Super Awesome cool Battle Simulator", sf::Vector2f(screenWidth / 2, 100));
-    GenericLabel credit("(Art assets by Iben the art dude)", sf::Vector2f(screenWidth / 2, 125));
+    GenericLabel title("Joris' Super Awesome cool Battle Simulator", sf::Vector2f(screenWidth / 2.0f, 100));
+    GenericLabel credit("(Art assets by Iben the art dude)", sf::Vector2f(screenWidth / 2.0f, 125));
 
     HighScoreLabel highScores("highScoreText001", sf::Vector2f(20, 90), font, sf::Color::Green, window, "text.cmgt");
     

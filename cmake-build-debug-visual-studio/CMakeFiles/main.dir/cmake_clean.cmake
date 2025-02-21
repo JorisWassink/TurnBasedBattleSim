@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/Animator.cpp.obj"
+  "CMakeFiles/main.dir/Animator.cpp.obj.d"
   "CMakeFiles/main.dir/Button.cpp.obj"
   "CMakeFiles/main.dir/Button.cpp.obj.d"
   "CMakeFiles/main.dir/Character.cpp.obj"

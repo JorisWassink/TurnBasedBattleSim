@@ -2,6 +2,10 @@
 #include "EnemyManager.hpp"
 
 #include <fstream>
+#include <thread>
+#include <iostream>
+#include <chrono>
+#include <future>
 
 #include "Button.hpp"
 #include "Player.hpp"
@@ -78,37 +82,43 @@ void EnemyManager::CalculateUtilities() {
      float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
      utilities[RECOVER] = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
      utilities[ATTACK] = .6f;
-     utilities[PREPARE] = .5f;
+     utilities[PREPARE] = 1.6f;
      utilities[MAGIC] = currentEnemy->charged ? 1 : .4f;
 }
 
+
 void EnemyManager::EnemyTurn(Player* target) {
-    label.textStr += "\rEnemy Turn!\n";
+    label.SetString("\rEnemy Turn!\n");
 
     CalculateUtilities();
 
-    switch (getHighestAction(utilities)) {
-        case ATTACK:
-            currentEnemy->Attack(label, target);
-            printf("Attack");
-        break;
-        case PREPARE:
-            currentEnemy->Prepare(label);
-        printf("Prepare");
-        break;
-        case MAGIC:
-            currentEnemy->CastMagic(label, target);
-            printf("Cast Magic");
-        break;
-        case RECOVER:
-            currentEnemy->Recover(label);
-        printf("Recover");
-        break;
-        default:
-            throw new std::exception;
-    }
-    target->playerTurn = true;
-    label.textStr += "\rYour Turn!\n";
+    Awaitable awaitable;
+    awaitable([this, target] {
+        switch (getHighestAction(utilities)) {
+            case ATTACK:
+                currentEnemy->Attack(label, target);
+            break;
+            case PREPARE:
+                currentEnemy->Prepare(label);
+            break;
+            case MAGIC:
+                currentEnemy->CastMagic(label, target);
+            break;
+            case RECOVER:
+                currentEnemy->Recover(label);
+            break;
+            default:
+                throw new std::exception;
+        }
+
+        Awaitable awaitable2;
+        awaitable2([this, target] {
+            target->playerTurn = true;
+            label.textStr += "\rYour Turn!\n";
+        });
+
+    });
+
 }
 
 void EnemyManager::update() {
