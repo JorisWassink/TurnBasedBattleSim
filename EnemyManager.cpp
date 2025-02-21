@@ -71,7 +71,6 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
             } else {
                 std::cerr << "Failed to open results.csv\n";
             }
-
             return entry.first;
         }
         buffer += entry.second;
@@ -81,12 +80,10 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
 void EnemyManager::CalculateUtilities(Player* target) {
     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
     float targetHealthPercentage = target->health / target->maxHealth;
-    printf("Player Health percentage: %f\n", targetHealthPercentage);
-
 
     float recoverChance = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
-    float attackChance = (1 - targetHealthPercentage) / ((2 * targetHealthPercentage) + 1) * currentEnemy->agressiveness;
-    float prepareChance = .2f * currentEnemy->agressiveness;
+    float attackChance = (1 - targetHealthPercentage) / ((2 * targetHealthPercentage) + 1) * currentEnemy->agressiveness + 0.2f;
+    float prepareChance = currentEnemy->charged ? 0 : .2f * currentEnemy->agressiveness;
     float magicChance = currentEnemy->charged ? .9f : .2f;
 
     utilities[RECOVER] = recoverChance;
@@ -102,6 +99,7 @@ void EnemyManager::CalculateUtilities(Player* target) {
     printf("MagicChance: %f\n", magicChance);
 
     printf("total Utilities: %f\n", (recoverChance + attackChance + magicChance + prepareChance));
+    printf("\n");
 }
 
 
@@ -114,15 +112,19 @@ void EnemyManager::EnemyTurn(Player* target) {
     awaitable([this, target] {
         switch (getHighestAction(utilities)) {
             case ATTACK:
+                printf("Chosen... Attack!\n");
                 currentEnemy->Attack(label, target);
             break;
             case PREPARE:
+                printf("Chosen... Prepare!\n");
                 currentEnemy->Prepare(label);
             break;
             case MAGIC:
+                printf("Chosen... Magic!\n");
                 currentEnemy->CastMagic(label, target);
             break;
             case RECOVER:
+                printf("Chosen... Recover!\n");
                 currentEnemy->Recover(label);
             break;
             default:

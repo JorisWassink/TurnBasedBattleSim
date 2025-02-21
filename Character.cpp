@@ -23,7 +23,6 @@ Character::~Character() {}
 
 void Character::render(sf::RenderWindow& window) 
 {
-
 	healthBar.textStr = "Health: " + std::to_string(health);
 	healthBar.render(window);
 	window.draw(body);

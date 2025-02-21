@@ -12,7 +12,7 @@ void Animator::setBody(sf::Sprite& bod) {
 
 bool Animator::Backflip(float speed) {
     body->setRotation(body->getRotation() + speed);
-    printf("spinnin %f\n", body->getRotation());
+    //printf("spinnin %f\n", body->getRotation());
 
     if (body->getRotation() > 350) {
         body->setRotation(0);
@@ -30,7 +30,7 @@ bool Animator::HeadButt(float speed) {
     constexpr float maxRotation = 45.0f;
     constexpr float resetThreshold = 5.0f;
 
-    printf("lets see, the current rotation is currently %f\n", body->getRotation());
+    //printf("lets see, the current rotation is currently %f\n", body->getRotation());
 
     body->rotate(front ? -speed : speed);
 
