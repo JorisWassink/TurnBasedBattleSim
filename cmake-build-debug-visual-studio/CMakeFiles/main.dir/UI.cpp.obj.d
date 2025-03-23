@@ -205,6 +205,7 @@ C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Character.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Animator.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Enemy.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/EnemyManager.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iostream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream

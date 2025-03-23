@@ -183,16 +183,7 @@ int main() {
         currentScene = &characterScene;
     });
 
-    // playButton.setButtonAction([&]() {
-    //     player.SetStats(stats.getStats());
-    //     if (FastestCharacter(&player, manager.GetEnemy()) == &player) {
-    //
-    //     }
-    //     else {
-    //         manager.EnemyTurn(&player);
-    //     }
-    //     currentScene = &botBattleScene;
-    // });
+
 
 
     playButton.setButtonAction([&]() {
@@ -211,7 +202,7 @@ int main() {
 
     backToMenuButton.setButtonAction([&]() {
         death = false;
-        manager.GetEnemy()->Initialize(*manager.GetEnemy());
+        manager.GetEnemy()->Initialize();
         currentScene = &mainMenu;
         
     });

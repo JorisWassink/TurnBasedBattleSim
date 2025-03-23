@@ -825,16 +825,17 @@ CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSi
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
-CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
+CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\player.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
@@ -845,9 +846,8 @@ CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\inclu
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
-CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
-CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
-CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\player.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 
 
@@ -1098,6 +1098,8 @@ CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Stu
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mmintrin.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\zmmintrin.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ammintrin.h"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sstream"
 
 
 CMakeFiles\main.dir\GameObject.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.cpp
@@ -2069,12 +2071,14 @@ CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleS
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
@@ -2091,8 +2095,6 @@ CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\20
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\chrono"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfilesystem_abi.h"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iomanip"
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 
 
@@ -3086,6 +3088,7 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\Turn
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
@@ -3100,7 +3103,6 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows 
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\UI.hpp
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayerStats.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\SpriteObject.hpp
@@ -3314,6 +3316,7 @@ CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\T
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
+CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
@@ -4059,6 +4062,10 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\zmmintrin.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ammintrin.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sstream":
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.cpp:
 

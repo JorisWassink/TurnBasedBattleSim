@@ -198,12 +198,14 @@ C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Animator.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GameObject.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/GenericLabel.hpp
 C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Enemy.hpp
-C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/EnemyManager.hpp
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/functional
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/unordered_map
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xhash
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/list
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xbit_ops.h
+C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Utils.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iostream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/istream
 C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt/math.h
@@ -220,6 +222,4 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.3443
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/chrono
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/xfilesystem_abi.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/iomanip
-C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/EnemyManager.hpp
-C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/Button.hpp
 C:/Program Files (x86)/Windows Kits/10/include/10.0.22621.0/ucrt/math.h

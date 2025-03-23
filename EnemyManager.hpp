@@ -14,7 +14,17 @@ struct EnemyStats {
     float recoverChance;
     float lowMagicChance;
     float highMagicChance;
+
+    bool operator==(const EnemyStats& other) const {
+        return attackChance == other.attackChance &&
+               prepareChance == other.prepareChance &&
+               recoverChance == other.recoverChance &&
+               lowMagicChance == other.lowMagicChance &&
+               highMagicChance == other.highMagicChance;
+    }
 };
+
+class Enemy;
 
 class EnemyManager : public GameObject {
 private:
@@ -30,6 +40,7 @@ private:
 public:
     EnemyManager(std::string identifier, sf::Vector2f location, GenericLabel& textLabel);
     ~EnemyManager();
+    Enemy* GetEnemy();
 
 public:
     void update();
@@ -42,7 +53,7 @@ public:
 
     void EnemyTurn(Character* target);
     void CalculateUtilities(Character* target);
-    Enemy* GetEnemy();
+
     void PlayerActionResponse(Action action, int amount = 0, int secondAmount = 0);
     std::string getIdentifier() const;
 };

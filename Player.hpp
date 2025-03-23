@@ -4,6 +4,8 @@
 #include "Enemy.hpp"
 #include "Utils.hpp"
 
+class Enemy;
+
 class Player : public Character {
 private:
 	sf::Texture texture;

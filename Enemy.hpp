@@ -1,10 +1,12 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Character.hpp"
+#include "EnemyManager.hpp"
 #include "GenericLabel.hpp"
 
 
 class EnemyManager;
+struct  EnemyStats;
 
 class Enemy : public Character {
 private:
@@ -32,15 +34,17 @@ public:
 	//void render(sf::RenderWindow& Window) override;
 
 	void update() override;
-	void SetStats();
+
+	void Initialize(EnemyStats stats);
+
+	void SetStats(EnemyStats stats);
 	bool CheckDeath() override;
 
 	void WriteValues(bool won);
 
 	void Turn(Character& target) override;
 
-	void Initialize(EnemyManager& manage, sf::Vector2f size, sf::Vector2f position, sf::Color color);
-	void Initialize(Enemy& enemy);
+	void Initialize();
 
 	//I put these in enemy instead of in Character to prevent circular dependancy
 	void Prepare(GenericLabel& label);

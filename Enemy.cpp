@@ -10,24 +10,27 @@
 
 Enemy::Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture) : Character(position, size, color, texture), manager(manage)
 {
-	Initialize(manage, position, size, color);
+	Initialize();
 }
 
 Enemy::~Enemy() = default;
 
 void Enemy::update() {}
 
-void Enemy::Initialize(EnemyManager& manage, sf::Vector2f size, sf::Vector2f position, sf::Color color)
+
+
+void Enemy::Initialize(EnemyStats stats)
 {
-	SetStats();
+	SetStats(stats);
 }
 
-void Enemy::Initialize(Enemy& enemy)
+void Enemy::Initialize()
 {
-	SetStats();
+	EnemyStats stats {1,1,1,1, 1};
+	SetStats(stats);
 }
 
-void Enemy::SetStats() {
+void Enemy::SetStats(EnemyStats stats) {
 	fitness = 0;
 
 	strength = 3;
@@ -38,72 +41,11 @@ void Enemy::SetStats() {
 	health = maxHealth;
 	sanity = wits * 2;
 
-
-	std::ifstream myFileRead("bestEnemy.cmgt");
-
-	if (myFileRead) {
-		// Reset the cursor to the beginning of the file to read high scores
-		myFileRead.clear(); // Clear EOF flag
-		myFileRead.seekg(0); // Move cursor to the start of the file
-
-		float chanceValue;
-
-		int valuesRead = 0;
-		while (myFileRead >> chanceValue && valuesRead < 5) {
-			switch (valuesRead) {
-				case 0: attackChance = chanceValue; break;
-				case 1: prepareChance = chanceValue; break;
-				case 2: recoverChance = chanceValue; break;
-				case 3: lowMagicChance = chanceValue; break;
-				case 4: highMagicChance = chanceValue; break;
-			}
-			valuesRead++;
-		}
-
-		if (valuesRead < 5) {
-			printf("Warning: Less than 5 values read from the file, initializing to random values.\n");
-			for (unsigned int i = 0; i < 5; i++) {
-				attackChance = 0;
-				prepareChance = 0;
-				recoverChance = 0;
-				lowMagicChance = 0;
-				highMagicChance = 0;
-			}
-		}
-
-		int randomValue = random(1, 5);
-
-		switch (randomValue) {
-			case 1:
-				attackChance = randomf(0, 1);
-				break;
-			case 2:
-				prepareChance = randomf(0, 1);
-				break;
-			case 3:
-				recoverChance = randomf(0, 1);
-				break;
-			case 4:
-				lowMagicChance = randomf(0, 1);
-				break;
-			case 5:
-				highMagicChance = randomf(0, 1);
-				break;
-			default:
-				printf("not working.\n");
-		}
-	}
-	else {
-		printf("something went wrong opening the file, it mightve been deleted, im now making a new one with reset scores \n");
-		std::ofstream myFileWrite("bestEnemy.cmgt");
-
-		for (unsigned int i = 0; i < 5; i++) {
-			myFileWrite << "0 ";
-		}
-		myFileWrite.close();
-	}
-
-
+	attackChance = stats.attackChance;
+	prepareChance = stats.prepareChance;
+	recoverChance = stats.recoverChance;
+	lowMagicChance = stats.lowMagicChance;
+	highMagicChance = stats.highMagicChance;
 }
 
 void Enemy::Attack(GenericLabel& label, Character* target)  {
@@ -180,7 +122,6 @@ void Enemy::Turn(Character& target) {
 
 bool Enemy::CheckDeath() {
 	if (health <= 0) {
-		manager.Death();
 		return true;
 	}
 	else {
@@ -192,20 +133,26 @@ void Enemy::WriteValues(bool won) {
 	if (won)
 		fitness += 10;
 
-
 	std::ofstream myFileWrite("bestEnemy.csv", std::ios::app); // Append mode
 
 	if (myFileWrite) {
-		// Write the 5 chance values to the file
-		myFileWrite << attackChance << ","
-					<< prepareChance << ","
-					<< recoverChance << ","
-					<< lowMagicChance << ","
-					<< highMagicChance << "," << fitness << "\n";
+		// Array of values to be written
+		std::vector<float> values = { attackChance, prepareChance, recoverChance, lowMagicChance, highMagicChance, fitness };
 
+		// Write the values, ensuring no extra comma after the last value
+		for (size_t i = 0; i < values.size(); ++i) {
+			myFileWrite << values[i];
+			if (i < values.size() - 1) {
+				myFileWrite << " "; // Add a comma if it's not the last value
+			}
+		}
+
+		// End the line after the values are written
+		myFileWrite << "\n";
 	} else {
 		std::cerr << "Error: Could not open file for writing." << std::endl;
 	}
+
 	myFileWrite.close();
 	manager.Death();
 }
