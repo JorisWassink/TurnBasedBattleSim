@@ -18,15 +18,17 @@ static int highScoreAmount = 5;
 static int currentScore = 0;
 
 
-void Player::CheckDeath() {
+
+bool Player::CheckDeath() {
     if (health <= 0) {
         death = true;
         HighScoreLabel::SetHighScores(highScoreAmount, pScore);
         currentScore = pScore;
         pScore = 0;
         Initialize(body.getPosition(), body.getScale(), body.getColor());
-
+        return true;
     }
+    return false;
 }
 
 int main() {
@@ -39,6 +41,7 @@ int main() {
     Scene mainMenu("MainMenu001");
     Scene characterScene("characterSelect001");
     Scene levelOneScene("level1");
+    Scene botBattleScene("botBattle");
     Scene GameOverScene("GameOver001");
     Scene* currentScene = &mainMenu;
 
@@ -134,13 +137,43 @@ int main() {
     UI ui("ui", &player, manager.GetEnemy());
 
 
-    #pragma region add stuff
+#pragma region add stuff
     levelOneScene.addGameObject(ui);
     levelOneScene.addGameObject(backButton);
     levelOneScene.addGameObject(player);
     levelOneScene.addGameObject(manager);
     levelOneScene.addGameObject(textLine);
-    #pragma endregion
+#pragma endregion
+#pragma endregion
+
+
+
+#pragma region BotBattle
+    GenericLabel textLine2("Fight!\n", sf::Vector2f(screenHeight / 2, screenHeight / 2));
+
+    PlayButton backButton2("back001", font, "back",
+        sf::Vector2f(200.0f, 50.0f),
+        sf::Color::Blue, window,
+        sf::Vector2f(0, 1030), &mainMenu, &levelOneScene);
+
+    sf::Texture playerTexture2;
+    playerTexture2.loadFromFile("textures/player.png");
+    playerTexture2.setSmooth(true);
+
+
+    EnemyManager manager2("manager001", sf::Vector2f(screenWidth / 5, screenHeight / 5), textLine2);
+
+    EnemyManager manager3("manager002", sf::Vector2f(screenWidth / 2, screenHeight / 5), textLine2);
+
+
+
+
+#pragma region add stuff
+    botBattleScene.addGameObject(backButton2);
+    botBattleScene.addGameObject(manager2);
+    botBattleScene.addGameObject(manager3);
+    botBattleScene.addGameObject(textLine2);
+#pragma endregion
 #pragma endregion
 
 
@@ -150,16 +183,27 @@ int main() {
         currentScene = &characterScene;
     });
 
+    // playButton.setButtonAction([&]() {
+    //     player.SetStats(stats.getStats());
+    //     if (FastestCharacter(&player, manager.GetEnemy()) == &player) {
+    //
+    //     }
+    //     else {
+    //         manager.EnemyTurn(&player);
+    //     }
+    //     currentScene = &botBattleScene;
+    // });
+
+
     playButton.setButtonAction([&]() {
-        player.SetStats(stats.getStats());
-        if (FastestCharacter(&player, manager.GetEnemy()) == &player) {
-            
-        }
-        else {
-            manager.EnemyTurn(&player);
-        }
-        currentScene = &levelOneScene;
-    });
+    if (FastestCharacter(manager2.GetEnemy(), manager3.GetEnemy()) == manager2.GetEnemy()) {
+        manager2.EnemyTurn(manager3.GetEnemy());
+    }
+    else {
+        manager3.EnemyTurn(manager2.GetEnemy());
+    }
+    currentScene = &botBattleScene;
+});
 
     backButton.setButtonAction([&]() {
         currentScene = &mainMenu;

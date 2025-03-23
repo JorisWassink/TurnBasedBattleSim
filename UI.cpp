@@ -14,25 +14,25 @@ UI::UI(std::string identifier, Player* player, Enemy* curentEnemy) : GameObject(
     magicButton = new Button("magicbutton001", font, "magic", sf::Vector2f(100, 50), sf::Color::Cyan, sf::Vector2f(380, 20));
 
     attackButton->setButtonAction([player, curentEnemy]() {
-        if (player->playerTurn) {
+        if (player->turn) {
             player->Attack(curentEnemy);
         }
     });
 
     recoverButton->setButtonAction([player, curentEnemy]() {
-        if (player->playerTurn) {
+        if (player->turn) {
             player->Recover(curentEnemy);
         }
     });
 
     prepareButton->setButtonAction([player, curentEnemy]() {
-        if (player->playerTurn) {
+        if (player->turn) {
             player->Prepare(curentEnemy);
         }
     });
 
     magicButton->setButtonAction([player, curentEnemy]() {
-        if (player->playerTurn) {
+        if (player->turn) {
             player->Magic(curentEnemy);
         }
     });

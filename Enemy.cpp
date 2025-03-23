@@ -1,5 +1,8 @@
 #pragma once
 #include "Enemy.hpp"
+
+#include <fstream>
+
 #include "Utils.hpp"
 #include "EnemyManager.hpp"
 #include <math.h>
@@ -25,34 +28,85 @@ void Enemy::Initialize(Enemy& enemy)
 }
 
 void Enemy::SetStats() {
-	strength = 1;
-	agility = 0;
-	wits = 1;
+	fitness = 0;
 
-	for (int i = 0; i < 3; i++)
-	{
-		switch (random(1, 3)) {
-		case 1:
-			strength++;
-			break;
-		case 2:
-			agility++;
-			break;
-		case 3:
-			wits++;
-			break;
-
-		default:
-			throw new _exception();
-		}
-	}
+	strength = 3;
+	agility = 3;
+	wits = 3;
 
 	maxHealth = strength * 3;
 	health = maxHealth;
 	sanity = wits * 2;
+
+
+	std::ifstream myFileRead("bestEnemy.cmgt");
+
+	if (myFileRead) {
+		// Reset the cursor to the beginning of the file to read high scores
+		myFileRead.clear(); // Clear EOF flag
+		myFileRead.seekg(0); // Move cursor to the start of the file
+
+		float chanceValue;
+
+		int valuesRead = 0;
+		while (myFileRead >> chanceValue && valuesRead < 5) {
+			switch (valuesRead) {
+				case 0: attackChance = chanceValue; break;
+				case 1: prepareChance = chanceValue; break;
+				case 2: recoverChance = chanceValue; break;
+				case 3: lowMagicChance = chanceValue; break;
+				case 4: highMagicChance = chanceValue; break;
+			}
+			valuesRead++;
+		}
+
+		if (valuesRead < 5) {
+			printf("Warning: Less than 5 values read from the file, initializing to random values.\n");
+			for (unsigned int i = 0; i < 5; i++) {
+				attackChance = 0;
+				prepareChance = 0;
+				recoverChance = 0;
+				lowMagicChance = 0;
+				highMagicChance = 0;
+			}
+		}
+
+		int randomValue = random(1, 5);
+
+		switch (randomValue) {
+			case 1:
+				attackChance = randomf(0, 1);
+				break;
+			case 2:
+				prepareChance = randomf(0, 1);
+				break;
+			case 3:
+				recoverChance = randomf(0, 1);
+				break;
+			case 4:
+				lowMagicChance = randomf(0, 1);
+				break;
+			case 5:
+				highMagicChance = randomf(0, 1);
+				break;
+			default:
+				printf("not working.\n");
+		}
+	}
+	else {
+		printf("something went wrong opening the file, it mightve been deleted, im now making a new one with reset scores \n");
+		std::ofstream myFileWrite("bestEnemy.cmgt");
+
+		for (unsigned int i = 0; i < 5; i++) {
+			myFileWrite << "0 ";
+		}
+		myFileWrite.close();
+	}
+
+
 }
 
-void Enemy::Attack(GenericLabel& label, Player* target)  {
+void Enemy::Attack(GenericLabel& label, Character* target)  {
 	bool attackingDone = false;
 	while(attackingDone == false) {
 		attackingDone = animator.HeadButt(.1f);
@@ -71,9 +125,18 @@ void Enemy::Attack(GenericLabel& label, Player* target)  {
 
 	target->health -= damage;
 
+	fitness += damage;
+
 	label.textStr += "\renemy attacks and does " + std::to_string(damage) + " damage\n";
 
-	target->CheckDeath();
+	if(target->CheckDeath()) {
+		Enemy* enemyTarget = static_cast<Enemy*>(target);
+		if (enemyTarget) {
+			enemyTarget->WriteValues(false);
+		}
+
+		WriteValues(true);
+	}
 }
 
 void Enemy::Prepare(GenericLabel& label) {
@@ -97,18 +160,23 @@ void Enemy::Recover(GenericLabel& label) {
 	label.textStr += "\renemy recovers " + std::to_string(sanit) + " sanity and " + std::to_string(wits) + " HP!\n";
 }
 
-void Enemy::CastMagic(GenericLabel& label, Player* target) {
+void Enemy::CastMagic(GenericLabel& label, Character* target) {
 	int damage;
 	target->health -= wits;
 	damage = wits;
 
 	label.textStr += "\renemy casts magic and does " + std::to_string(damage) + " damage\n";
-	target->CheckDeath();
-}
+	if(target->CheckDeath())
+		WriteValues(true);}
 
 void Enemy::Tremble(GenericLabel& label) {
 	label.textStr += "\renemy trembles in fear...\n";
 }
+
+void Enemy::Turn(Character& target) {
+	manager.EnemyTurn(&target);
+}
+
 
 bool Enemy::CheckDeath() {
 	if (health <= 0) {
@@ -118,4 +186,26 @@ bool Enemy::CheckDeath() {
 	else {
 		return false;
 	}
+}
+
+void Enemy::WriteValues(bool won) {
+	if (won)
+		fitness += 10;
+
+
+	std::ofstream myFileWrite("bestEnemy.csv", std::ios::app); // Append mode
+
+	if (myFileWrite) {
+		// Write the 5 chance values to the file
+		myFileWrite << attackChance << ","
+					<< prepareChance << ","
+					<< recoverChance << ","
+					<< lowMagicChance << ","
+					<< highMagicChance << "," << fitness << "\n";
+
+	} else {
+		std::cerr << "Error: Could not open file for writing." << std::endl;
+	}
+	myFileWrite.close();
+	manager.Death();
 }

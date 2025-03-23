@@ -30,4 +30,10 @@ void Character::render(sf::RenderWindow& window)
 
 void Character::update(){}
 
+bool Character::CheckDeath() {
+	// Zorg ervoor dat deze functie een definitie heeft
+	return false; // Of een echte check
+}
+
+void Character::Turn(Character& target) {}
 

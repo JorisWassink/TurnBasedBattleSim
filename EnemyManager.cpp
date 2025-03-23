@@ -6,13 +6,14 @@
 #include <iostream>
 #include <chrono>
 #include <future>
+#include <numeric>
+#include <sstream>
 
 #include "Button.hpp"
 #include "Player.hpp"
 #include "Enemy.hpp"
 
 
-const float EnemyManager::TREMBLE_CHANCE = 10.0f;
 
 std::map<Action, float> utilities = {
     { ATTACK, 0 },
@@ -23,7 +24,6 @@ std::map<Action, float> utilities = {
 
 EnemyManager::EnemyManager(std::string identifier, sf::Vector2f location, GenericLabel& textLabel) : identifier(identifier), location(location), label(textLabel)
 {
-
     texture.loadFromFile("textures/Evil.png");
     currentEnemy = new Enemy(sf::Vector2f(location.x + texture.getSize().x, location.y),
         sf::Vector2f(.5f, .5f),
@@ -39,7 +39,11 @@ void EnemyManager::render(sf::RenderWindow& window) {
     currentEnemy->render(window);
 }
 
-
+void EnemyManager::update() {
+    if (currentEnemy != nullptr) {
+        currentEnemy->update();
+    }
+}
 
 Enemy* EnemyManager::GetEnemy() 
 {
@@ -51,8 +55,6 @@ std::string EnemyManager::getIdentifier() const {
 }
 
 Action getHighestAction(const std::map<Action, float>& actionMap) {
-
-
     float totalValue = 0.0f;
 
     for (const auto& entry : actionMap) {
@@ -77,76 +79,59 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
     }
 }
 
-void EnemyManager::CalculateUtilities(Player* target) {
+void EnemyManager::CalculateUtilities(Character* target) {
     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
     float targetHealthPercentage = target->health / target->maxHealth;
 
-    float recoverChance = (1 - healthPercentage) / ((2 * healthPercentage) + 1);
-    float attackChance = (1 - targetHealthPercentage) / ((2 * targetHealthPercentage) + 1) * currentEnemy->agressiveness + 0.2f;
-    float prepareChance = currentEnemy->charged ? 0 : .2f * currentEnemy->agressiveness;
-    float magicChance = currentEnemy->charged ? .9f : .2f;
+    float recoverChance = (1 - healthPercentage) / ((currentEnemy->recoverChance * healthPercentage) + 1);
+
+    float attackChance = (1 - targetHealthPercentage) / ((2 * targetHealthPercentage) + 1) * currentEnemy->attackChance;
+
+    float prepareChance = currentEnemy->charged ? 0 : currentEnemy->prepareChance;
+
+    float magicChance = currentEnemy->charged ? currentEnemy->highMagicChance : currentEnemy->lowMagicChance;
 
     utilities[RECOVER] = recoverChance;
-    printf("RecoverChance: %f\n", recoverChance);
-
     utilities[ATTACK] = attackChance;
-    printf("AttackChance: %f\n", attackChance);
-
     utilities[PREPARE] = prepareChance;
-    printf("PrepareChance: %f\n", prepareChance);
-
     utilities[MAGIC] = magicChance;
-    printf("MagicChance: %f\n", magicChance);
-
-    printf("total Utilities: %f\n", (recoverChance + attackChance + magicChance + prepareChance));
-    printf("\n");
 }
 
-
-void EnemyManager::EnemyTurn(Player* target) {
+void EnemyManager::EnemyTurn(Character* target) {
     label.SetString("\rEnemy Turn!\n");
-
+    currentEnemy->fitness += 2;
     CalculateUtilities(target);
 
     Awaitable awaitable;
     awaitable([this, target] {
         switch (getHighestAction(utilities)) {
             case ATTACK:
-                printf("Chosen... Attack!\n");
                 currentEnemy->Attack(label, target);
             break;
             case PREPARE:
-                printf("Chosen... Prepare!\n");
                 currentEnemy->Prepare(label);
             break;
             case MAGIC:
-                printf("Chosen... Magic!\n");
                 currentEnemy->CastMagic(label, target);
             break;
             case RECOVER:
-                printf("Chosen... Recover!\n");
                 currentEnemy->Recover(label);
             break;
             default:
                 throw new std::exception;
         }
 
+
+
         Awaitable awaitable2;
         awaitable2([this, target] {
-            target->playerTurn = true;
+            target->Turn(*currentEnemy);
             label.textStr += "\rYour Turn!\n";
         });
 
     });
 
 }
-
-void EnemyManager::update() {
-    if (currentEnemy != nullptr) {
-        currentEnemy->update();
-    }
-}
-
 
 void EnemyManager::PlayerActionResponse(enum Action action , int amount, int secondAmount) {
     switch (action) {
@@ -176,11 +161,138 @@ void EnemyManager::PlayerActionResponse(enum Action action , int amount, int sec
     }
 }
 
-
 void EnemyManager::Death() {
     if (currentEnemy != nullptr)
     {
-        currentEnemy->Initialize(*this, currentEnemy->body.getScale(), currentEnemy->body.getPosition(), currentEnemy->body.getColor());
+        currentEnemy->Initialize(*currentEnemy);
         label.textStr += "\rEnemy killed!\n";
     }   
+}
+
+void EnemyManager::SortColumns(std::string fileName) {
+    std::ifstream inputFile(fileName);
+    std::vector<std::vector<double>> data;
+
+    if (!inputFile) {
+        std::cerr << "Error: Could not open file for reading." << std::endl;
+        return;
+    }
+
+    std::string line;
+    while (std::getline(inputFile, line)) {
+        std::stringstream ss(line);
+        std::vector<double> row;
+        double value;
+        while (ss >> value) {
+            row.push_back(value);
+        }
+        data.push_back(row);
+    }
+    inputFile.close();
+
+    if (data.empty()) {
+        std::cerr << "Error: No data to sort." << std::endl;
+        return;
+    }
+
+    size_t numCols = data[0].size();
+    std::vector<std::vector<double>> columns(numCols);
+
+    for (size_t i = 0; i < numCols; ++i) {
+        for (size_t j = 0; j < data.size(); ++j) {
+            columns[i].push_back(data[j][i]);
+        }
+    }
+
+    for (auto& col : columns) {
+        std::sort(col.begin(), col.end());
+    }
+
+    for (size_t i = 0; i < data.size(); ++i) {
+        for (size_t j = 0; j < numCols; ++j) {
+            data[i][j] = columns[j][i];
+        }
+    }
+
+    std::sort(data.begin(), data.end(), [](const std::vector<double>& a, const std::vector<double>& b) {
+        return a.size() > 5 && b.size() > 5 && a[5] > b[5];
+    });
+
+    if (data.size() > 10) {
+        data.resize(10);
+    }
+
+    std::ofstream outputFile(fileName);
+    if (!outputFile) {
+        std::cerr << "Error: Could not open file for writing." << std::endl;
+        return;
+    }
+
+    for (const auto& row : data) {
+        for (size_t i = 0; i < row.size(); ++i) {
+            outputFile << row[i] << (i < row.size() - 1 ? " " : "");
+        }
+        outputFile << "\n";
+    }
+
+    enemyList.clear();
+
+    for (size_t i = 0; i < data.size(); ++i) {
+        EnemyStats enemy = {
+            static_cast<float>(data[i][0]),
+            static_cast<float>(data[i][1]),
+            static_cast<float>(data[i][2]),
+            static_cast<float>(data[i][3]),
+            static_cast<float>(data[i][4]),
+        };
+        enemyList.push_back(enemy);
+    }
+    
+
+    outputFile.close();
+}
+
+void EnemyManager::Breed() {
+    std::list<EnemyStats> startEnemies;
+    std::list<EnemyStats> offspringEnemies;
+    startEnemies = enemyList;
+
+    while (startEnemies.size() > 0) {
+        EnemyStats parentOne = startEnemies.front();
+        EnemyStats parentTwo = startEnemies.back();
+        EnemyStats offspring;
+        offspring.attackChance = random(0,1) ? parentOne.attackChance : parentTwo.attackChance;
+        offspring.prepareChance = random(0,1) ? parentOne.prepareChance : parentTwo.prepareChance;
+        offspring.recoverChance = random(0,1) ? parentOne.recoverChance : parentTwo.recoverChance;
+        offspring.lowMagicChance = random(0, 1) ? parentOne.lowMagicChance : parentTwo.lowMagicChance;
+        offspring.highMagicChance = random(0, 1) ? parentOne.highMagicChance : parentTwo.highMagicChance;
+        startEnemies.remove(parentOne);
+        startEnemies.remove(parentTwo);
+        offspringEnemies.push_back(offspring);
+    }
+
+    //mutation
+    for (auto offspring: offspringEnemies) {
+        switch(random(0,4)) {
+            case 0:
+                offspring.attackChance = randomf(0,2);
+            break;
+            case 1:
+                offspring.prepareChance = randomf(0,2);
+            break;
+            case 2:
+                offspring.recoverChance = randomf(0,2);
+            break;
+            case 3:
+                offspring.lowMagicChance = randomf(0,2);
+            break;
+            case 4:
+                offspring.highMagicChance = randomf(0,2);
+            break;
+            default:
+                throw std::invalid_argument("Invalid offspring chance!");
+        }
+    }
+
+    enemyList = offspringEnemies;
 }

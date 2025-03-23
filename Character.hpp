@@ -21,6 +21,7 @@ private:
 	sf::Vector2f cPosition;
 
 public:
+	bool turn;
 	Animator animator;
 	sf::Sprite body;
 	int maxHealth;
@@ -38,6 +39,9 @@ public:
 public:
 	void render(sf::RenderWindow& Window) override;
 	void update() override;
+	virtual bool CheckDeath();
+	virtual void Turn(Character& target);
+
 };
 
 

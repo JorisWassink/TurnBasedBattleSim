@@ -8,8 +8,17 @@
 #include "GenericLabel.hpp"
 
 
+struct EnemyStats {
+    float attackChance;
+    float prepareChance;
+    float recoverChance;
+    float lowMagicChance;
+    float highMagicChance;
+};
+
 class EnemyManager : public GameObject {
 private:
+    std::list<EnemyStats> enemyList;
     const std::string identifier;
     Enemy* currentEnemy;
     sf::Vector2f location;
@@ -26,8 +35,13 @@ public:
     void update();
     void render(sf::RenderWindow& window);
     void Death();
-    void EnemyTurn(Player* target);
-    void CalculateUtilities(Player* target);
+
+    void SortColumns(std::string fileName);
+
+    void Breed();
+
+    void EnemyTurn(Character* target);
+    void CalculateUtilities(Character* target);
     Enemy* GetEnemy();
     void PlayerActionResponse(Action action, int amount = 0, int secondAmount = 0);
     std::string getIdentifier() const;
