@@ -131,7 +131,7 @@ bool Enemy::CheckDeath() {
 
 void Enemy::WriteValues(bool won) {
 	if (won)
-		fitness += 10;
+		fitness += health;
 
 	std::ofstream myFileWrite("bestEnemy.csv", std::ios::app); // Append mode
 

@@ -1,4 +1,5 @@
 #pragma once
+#include <mutex>
 #include <SFML/Graphics.hpp>
 #include "GameObject.hpp"
 
@@ -7,7 +8,7 @@ class GenericLabel : public GameObject {
 private:
 	sf::Font font;
 	sf::Text text;
-	
+	std::mutex textMutex;  // Protects `textStr` and `text.setString`
 
 public:
 	std::string textStr;

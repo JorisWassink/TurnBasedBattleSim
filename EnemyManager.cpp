@@ -124,7 +124,7 @@ void EnemyManager::EnemyTurn(Character* target) {
         Awaitable awaitable2;
         awaitable2([this, target] {
             target->Turn(*currentEnemy);
-            label.textStr += "\rYour Turn!\n";
+            label.textStr += "\rTurn Done!\n";
         });
 
     });
@@ -162,14 +162,18 @@ void EnemyManager::PlayerActionResponse(enum Action action , int amount, int sec
 void EnemyManager::Death() {
     if (currentEnemy != nullptr)
     {
-        printf("amount of enemies left: %f \n", enemyList.size());
+        printf("amount of enemies left: %d \n", enemyList.size());
         if(enemyList.size() <= 0) {
             printf("making new enemies... \n");
             SortColumns("bestEnemy.csv");
             Breed();
         }
-        currentEnemy->Initialize(*enemyList.begin());
-        enemyList.erase(enemyList.begin());
+        if (!enemyList.empty()) {
+            currentEnemy->Initialize(*enemyList.begin());
+            enemyList.erase(enemyList.begin());
+        } else {
+            currentEnemy->Initialize();
+        }
         label.textStr += "\rEnemy killed!\n";
     }   
 }
@@ -221,11 +225,12 @@ void EnemyManager::SortColumns(std::string fileName) {
     }
 
     std::sort(data.begin(), data.end(), [](const std::vector<double>& a, const std::vector<double>& b) {
-        return a.size() > 5 && b.size() > 5 && a[5] > b[5];
+        return a.size() > 5 && b.size() > 5 ? a[5] > b[5] : a.size() > b.size();
     });
 
-    if (data.size() > 10) {
-        data.resize(10);
+
+    if (data.size() > 20) {
+        data.resize(20);
     }
 
     std::ofstream outputFile(fileName);
@@ -257,7 +262,6 @@ void EnemyManager::SortColumns(std::string fileName) {
             static_cast<float>(data[i][4]),
         };
         enemyList.push_back(enemy);
-        printf("enemy pushed \n");
     }
     
 
@@ -268,7 +272,7 @@ void EnemyManager::Breed() {
     std::list<EnemyStats> offspringEnemies;
     std::list<EnemyStats> startEnemies(enemyList.begin(), enemyList.end());
 
-    while (startEnemies.size() > 0) {
+    while (startEnemies.size() > 0 && startEnemies.size() % 2 == 0) {
         EnemyStats parentOne = startEnemies.front();
         EnemyStats parentTwo = startEnemies.back();
         EnemyStats offspring;
@@ -305,12 +309,9 @@ void EnemyManager::Breed() {
             default:
                 throw std::invalid_argument("Invalid offspring chance!");
         }
-        printf("mutated with a value of %f \n", mutationAmount);
     }
 
-    for (auto offspring: offspringEnemies) {
-        printf("offspring has an attack of %f \n", offspring.recoverChance);
-    }
+    printf("amount of offspring made: %d \n", offspringEnemies.size());
 
     enemyList.clear();
     enemyList = offspringEnemies;
