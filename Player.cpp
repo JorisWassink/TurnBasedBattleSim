@@ -7,8 +7,7 @@
 
 
 
-Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture &texture) : Character(
-	position, size, color, texture)
+Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture &texture, std::string identifier = "") : Character(position, size, color, texture, identifier)
 {
 	Initialize(position, size, color);
 }
@@ -35,8 +34,8 @@ void Player::SetStats(ThreeIntegers stats) {
 	sanity = wits * 2;
 }
 
-void Player::PlayerTurn() {
-	playerTurn = true;
+void Player::Turn(Character* target) {
+	turn = true;
 }
 
 
@@ -59,7 +58,7 @@ void Player::Attack(Enemy* target) {
 
 	
 
-	playerTurn = false;
+	turn = false;
 	target->manager.PlayerActionResponse(ATTACK, strength);
 	target->manager.EnemyTurn(this);
 }
@@ -75,14 +74,14 @@ void Player::Recover(Enemy* target) {
 	}
 	
 	
-	playerTurn = false;
+	turn = false;
 	target->manager.PlayerActionResponse(RECOVER, healing, sanit);
 	target->manager.EnemyTurn(this);
 }
 
 void Player::Prepare(Enemy* target) {
 	charged = true;
-	playerTurn = false;
+	turn = false;
 	target->manager.PlayerActionResponse(PREPARE);
 	target->manager.EnemyTurn(this);
 }
@@ -99,7 +98,7 @@ void Player::Magic(Enemy* target) {
 		pScore++;
 	}
 	charged = false;
-	playerTurn = false;
+	turn = false;
 	target->manager.PlayerActionResponse(MAGIC, damage);
 	target->manager.EnemyTurn(this);
 }

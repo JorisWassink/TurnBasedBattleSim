@@ -1,12 +1,12 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "Character.hpp"
+#include "EnemyManager.hpp"
 #include "GenericLabel.hpp"
 
 
 class EnemyManager;
-
-class Player;
+struct  EnemyStats;
 
 class Enemy : public Character {
 private:
@@ -17,23 +17,41 @@ public:
 	sf::Sprite body;
 	bool charged{};
 	float agressiveness = 1;
-	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture);
+
+	float attackChance;
+	float prepareChance;
+	float recoverChance;
+	float lowMagicChance;
+	float highMagicChance;
+
+	float fitness;
+
+
+	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture, std::string id);
 
 	~Enemy();
 public:
 	//void render(sf::RenderWindow& Window) override;
+
 	void update() override;
-	void SetStats();
-	bool CheckDeath();
-	void Initialize(EnemyManager& manage, sf::Vector2f size, sf::Vector2f position, sf::Color color);
-	void Initialize(Enemy& enemy);
+
+	void Initialize(EnemyStats stats);
+
+	void SetStats(EnemyStats stats);
+	bool CheckDeath() override;
+
+	void WriteValues(bool won);
+
+	void Turn(Character* target) override;
+
+	void Initialize();
 
 	//I put these in enemy instead of in Character to prevent circular dependancy
 	void Prepare(GenericLabel& label);
 	void Recover(GenericLabel& label);
-	void CastMagic(GenericLabel& label, Player* target);
+	void CastMagic(GenericLabel& label, Character* target);
 	void Tremble(GenericLabel& label);
-	void Attack(GenericLabel& label, Player* target);
+	void Attack(GenericLabel& label, Character* target);
 };
 
 

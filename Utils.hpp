@@ -7,13 +7,27 @@
 
 #include "Character.hpp"
 
-inline int random(int lowest, int highest) {
-	if (lowest > highest)
-		std::swap(lowest, highest);
+// inline int random(int lowest, int highest) {
+// 	if (lowest > highest)
+// 		std::swap(lowest, highest);
+//
+// 	int rando = rand() % ((highest - lowest) + 1) + lowest;
+// 	return rando;
+// }
 
-	int rando = rand() % ((highest - lowest) + 1) + lowest;
-	return rando;
+
+inline int random(int lowest, int highest) {
+	static std::random_device rd;
+	static std::mt19937 gen(rd());
+
+	if (lowest > highest) {
+		std::swap(lowest, highest);
+	}
+
+	std::uniform_int_distribution<int> dist(lowest, highest);
+	return dist(gen);
 }
+
 
 inline float randomf(float lowest, float highest) {
 	if (lowest > highest) {
@@ -37,9 +51,13 @@ inline Character* FastestCharacter(Character* character1, Character* character2)
 }
 
 struct Awaitable {
+	std::chrono::milliseconds delay;
+
+	Awaitable(int ms) : delay(ms) {}
+
 	void operator()(std::function<void()> callback) {
-		std::thread([callback] {
-			std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+		std::thread([callback, d = delay] {
+			std::this_thread::sleep_for(d);
 			callback();
 		}).detach();
 	}

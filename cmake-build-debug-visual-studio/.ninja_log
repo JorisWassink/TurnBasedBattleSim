@@ -1,0 +1,18 @@
+# ninja log v6
+11	659	7639268102987192	CMakeFiles/main.dir/Scene.cpp.obj	4dcd2dbe66fc3785
+41	667	7639268103287763	CMakeFiles/main.dir/GameObject.cpp.obj	3412ada7a252ad87
+20	725	7639268103077193	CMakeFiles/main.dir/GenericLabel.cpp.obj	306b4c14a328b70b
+45	749	7639268103327784	CMakeFiles/main.dir/Button.cpp.obj	a5c72214be582101
+16	761	7639268103037220	CMakeFiles/main.dir/PlayButton.cpp.obj	5ee28d0e5bfd4701
+29	769	7639268103167180	CMakeFiles/main.dir/QuitButton.cpp.obj	ebe7523d81c8ba6b
+33	797	7639268103207170	CMakeFiles/main.dir/WriteButton.cpp.obj	94a915e92c52b263
+25	868	7639268103127182	CMakeFiles/main.dir/PlayerStats.cpp.obj	1f2c0e7172321b5e
+49	897	7639268103367827	CMakeFiles/main.dir/Character.cpp.obj	e22456b7e3d3b77d
+3	898	7639268102907165	CMakeFiles/main.dir/TurnBasedBattleSim.cpp.obj	be2a8cf613a0c996
+53	900	7639268103407831	CMakeFiles/main.dir/Enemy.cpp.obj	855e9e57b585af21
+38	904	7639268103249682	CMakeFiles/main.dir/UI.cpp.obj	b3d002c26a8fccaf
+8	1014	7639268102957196	CMakeFiles/main.dir/Player.cpp.obj	2051d3a36de44106
+57	1175	7639268103447757	CMakeFiles/main.dir/EnemyManager.cpp.obj	ee8a55d1d5b5d077
+667	1215	7639268109551872	CMakeFiles/main.dir/SpriteObject.cpp.obj	e5349e7f776808a7
+725	1248	7639268110131335	CMakeFiles/main.dir/Animator.cpp.obj	ec878928f89ddad0
+661	1273	7639268109490124	CMakeFiles/main.dir/HighScoreLabel.cpp.obj	bc90693406501d8

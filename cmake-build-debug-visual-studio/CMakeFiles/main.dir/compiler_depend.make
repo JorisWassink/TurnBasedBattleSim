@@ -200,6 +200,14 @@ CMakeFiles\main.dir\Animator.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installe
 CMakeFiles\main.dir\Animator.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\Animator.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Animator.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\Animator.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 
 
 CMakeFiles\main.dir\Button.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.cpp
@@ -605,6 +613,14 @@ CMakeFiles\main.dir\Character.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\install
 CMakeFiles\main.dir\Character.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\Character.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Character.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\Character.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
 CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
@@ -616,13 +632,6 @@ CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio
 CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\Character.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 
 
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.cpp
@@ -825,27 +834,30 @@ CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSi
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
-CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
 CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\player.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
+CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
 CMakeFiles\main.dir\Enemy.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 
 
@@ -1056,6 +1068,14 @@ CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedB
 CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
 CMakeFiles\main.dir\EnemyManager.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
@@ -1063,20 +1083,12 @@ CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Stu
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\chrono"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfilesystem_abi.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\future"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\condition_variable"
-CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ppltasks.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\pplwin.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\pplinterface.h"
@@ -1096,6 +1108,8 @@ CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Stu
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mmintrin.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\zmmintrin.h"
 CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ammintrin.h"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric"
+CMakeFiles\main.dir\EnemyManager.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sstream"
 
 
 CMakeFiles\main.dir\GameObject.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.cpp
@@ -1251,81 +1265,66 @@ CMakeFiles\main.dir\GameObject.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\instal
 
 CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.cpp
 CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Config.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Clock.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Export.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Err.hpp
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals_core.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sal.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\concurrencysal.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vadefs.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xkeycheck.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ios"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocnum"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cfloat"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\climits"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\crtdbg.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_new_debug.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_new.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\crtdefs.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\use_ansi.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtr1common"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.inl.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ctime"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cfloat"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\float.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\climits"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cwchar"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdio"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdio.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdio.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_stdio_config.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstring"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memcpy_s.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\errno.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_string.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cwchar"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\wchar.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wconio.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wctype.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wdirect.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wio.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_share.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wprocess.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wtime.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_wstring.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\stat.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\sys\types.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\initializer_list"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\type_traits"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtr1common"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\intrin0.inl.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdint"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\streambuf"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xiosbase"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\type_traits"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stddef.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\initializer_list"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtimec.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_math.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\stdlib.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_malloc.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_search.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\system_error"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_system_error_abi.hpp"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cerrno"
@@ -1338,8 +1337,13 @@ CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\1
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_sanitizer_annotate_container.hpp"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_string_view.hpp"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstring"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\string.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_memory.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_iter_core.hpp"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\limits"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\new"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xatomic.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xpolymorphic_allocator.h"
@@ -1349,13 +1353,31 @@ CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Stu
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xthreads.h"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_threads_core.hpp"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtimec.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ctime"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
-CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocale"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\typeinfo"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_typeinfo.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Config.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Clock.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Export.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System\Err.hpp
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ios"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocnum"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\streambuf"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xiosbase"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
+CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocale"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfacet"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocinfo"
 CMakeFiles\main.dir\GenericLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_xlocinfo_types.hpp"
@@ -1532,6 +1554,30 @@ CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual S
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xnode_handle.h"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ctime"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtimec.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\system_error"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_system_error_abi.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cerrno"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_string_view.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xcall_once.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xerrc.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xthreads.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_threads_core.hpp"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics.hpp
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Window.hpp
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\System.hpp
@@ -1544,26 +1590,10 @@ CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual S
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ios"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocnum"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iterator"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\streambuf"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xiosbase"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\system_error"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_system_error_abi.hpp"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cerrno"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_string_view.hpp"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xcall_once.h"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xerrc.h"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xthreads.h"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_threads_core.hpp"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtimec.h"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ctime"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\time.h"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocale"
-CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfacet"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xlocinfo"
 CMakeFiles\main.dir\HighScoreLabel.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_xlocinfo_types.hpp"
@@ -2066,31 +2096,32 @@ CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleS
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xhash"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xbit_ops.h"
+CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\filesystem"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\chrono"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xfilesystem_abi.h"
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iomanip"
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
-CMakeFiles\main.dir\Player.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\Player.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 
 
@@ -2313,6 +2344,7 @@ CMakeFiles\main.dir\PlayerStats.cpp.obj: "C:\Program Files\Microsoft Visual Stud
 CMakeFiles\main.dir\PlayerStats.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\PlayerStats.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\PlayerStats.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\PlayerStats.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
 CMakeFiles\main.dir\PlayerStats.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 
 
@@ -2871,6 +2903,14 @@ CMakeFiles\main.dir\SpriteObject.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\inst
 CMakeFiles\main.dir\SpriteObject.cpp.obj: C:\Users\joris\.vcpkg-clion\vcpkg\installed\x64-windows\include\SFML\Graphics\VertexBuffer.hpp
 CMakeFiles\main.dir\SpriteObject.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 CMakeFiles\main.dir\SpriteObject.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\SpriteObject.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 
 
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\TurnBasedBattleSim.cpp
@@ -3079,26 +3119,27 @@ CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visu
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\WriteButton.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayButton.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Player.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
+CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\UI.hpp
-CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\HighScoreLabel.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\PlayerStats.hpp
 CMakeFiles\main.dir\TurnBasedBattleSim.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\SpriteObject.hpp
@@ -3311,20 +3352,22 @@ CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\T
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Character.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Animator.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
+CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp
+CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\EnemyManager.hpp
 CMakeFiles\main.dir\UI.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Utils.hpp
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iostream"
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream"
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random"
 CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_int128.hpp"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_chrono.hpp"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ratio"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\corecrt_startup.h"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\math.h"
-CMakeFiles\main.dir\UI.cpp.obj: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h"
 
 
 CMakeFiles\main.dir\WriteButton.cpp.obj: C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\WriteButton.cpp
@@ -4000,6 +4043,12 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.hpp
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GenericLabel.hpp:
 
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread":
+
+"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h":
+
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.cpp:
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp:
@@ -4016,19 +4065,13 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Button.hpp:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\random":
 
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread":
-
-"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\process.h":
-
-"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime_startup.h":
-
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.cpp:
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\Enemy.hpp:
 
-C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp:
-
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\fstream":
+
+C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\immintrin.h":
 
@@ -4057,6 +4100,10 @@ C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\gameObject.hpp
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\zmmintrin.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ammintrin.h":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\numeric":
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sstream":
 
 C:\Users\joris\source\repos\TurnBasedBattleSim\TurnBasedBattleSim\GameObject.cpp:
 

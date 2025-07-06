@@ -7,7 +7,7 @@ events:
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.22631 - AMD64
+      The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-siwffh"
-      binary: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-siwffh"
+      source: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g3tu6w"
+      binary: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g3tu6w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -119,28 +119,28 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-siwffh'
+        Change Dir: 'C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g3tu6w'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_5cdf2\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_5cdf2.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5cdf2.dir\\build
-        Building C object CMakeFiles/cmTC_5cdf2.dir/CMakeCCompilerABI.c.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5cdf2.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-siwffh --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\joris\\AppData\\Local\\Temp\\nm93D9.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ed9b6\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ed9b6.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ed9b6.dir\\build
+        Building C object CMakeFiles/cmTC_ed9b6.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ed9b6.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-g3tu6w --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\joris\\AppData\\Local\\Temp\\nmE61E.tmp
         CMakeCCompilerABI.c
-        Linking C executable cmTC_5cdf2.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5cdf2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5cdf2.dir\\objects1.rsp @C:\\Users\\joris\\AppData\\Local\\Temp\\nm9428.tmp
+        Linking C executable cmTC_ed9b6.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ed9b6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ed9b6.dir\\objects1.rsp @C:\\Users\\joris\\AppData\\Local\\Temp\\nmE66D.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_5cdf2.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_5cdf2.dir/embed.manifest
+        Create CMakeFiles\\cmTC_ed9b6.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_ed9b6.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_5cdf2.dir/manifest.res CMakeFiles\\cmTC_5cdf2.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ed9b6.dir/manifest.res CMakeFiles\\cmTC_ed9b6.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5cdf2.dir\\objects1.rsp /out:cmTC_5cdf2.exe /implib:cmTC_5cdf2.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-siwffh\\cmTC_5cdf2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5cdf2.dir/intermediate.manifest CMakeFiles\\cmTC_5cdf2.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ed9b6.dir\\objects1.rsp /out:cmTC_ed9b6.exe /implib:cmTC_ed9b6.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-g3tu6w\\cmTC_ed9b6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ed9b6.dir/intermediate.manifest CMakeFiles\\cmTC_ed9b6.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_5cdf2.dir/intermediate.manifest /out:CMakeFiles\\cmTC_5cdf2.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_ed9b6.dir/intermediate.manifest /out:CMakeFiles\\cmTC_ed9b6.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_5cdf2.dir/manifest.res CMakeFiles\\cmTC_5cdf2.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_ed9b6.dir/manifest.res CMakeFiles\\cmTC_ed9b6.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5cdf2.dir\\objects1.rsp /out:cmTC_5cdf2.exe /implib:cmTC_5cdf2.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-siwffh\\cmTC_5cdf2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5cdf2.dir/intermediate.manifest CMakeFiles\\cmTC_5cdf2.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ed9b6.dir\\objects1.rsp /out:cmTC_ed9b6.exe /implib:cmTC_ed9b6.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-g3tu6w\\cmTC_ed9b6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ed9b6.dir/intermediate.manifest CMakeFiles\\cmTC_ed9b6.dir/manifest.res
         
       exitCode: 0
   -
@@ -180,8 +180,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-sikbgv"
-      binary: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-sikbgv"
+      source: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hfsgh7"
+      binary: "C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hfsgh7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -191,28 +191,28 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-sikbgv'
+        Change Dir: 'C:/Users/joris/source/repos/TurnBasedBattleSim/TurnBasedBattleSim/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hfsgh7'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_44eb6\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_44eb6.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_44eb6.dir\\build
-        Building CXX object CMakeFiles/cmTC_44eb6.dir/CMakeCXXCompilerABI.cpp.obj
-        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_44eb6.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-sikbgv --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\joris\\AppData\\Local\\Temp\\nm963A.tmp
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_1304a\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_1304a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_1304a.dir\\build
+        Building CXX object CMakeFiles/cmTC_1304a.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_1304a.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hfsgh7 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\joris\\AppData\\Local\\Temp\\nmE87F.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_44eb6.exe
-        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_44eb6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_44eb6.dir\\objects1.rsp @C:\\Users\\joris\\AppData\\Local\\Temp\\nm9689.tmp
+        Linking CXX executable cmTC_1304a.exe
+        	"C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1304a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1304a.dir\\objects1.rsp @C:\\Users\\joris\\AppData\\Local\\Temp\\nmE8CE.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_44eb6.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_44eb6.dir/embed.manifest
+        Create CMakeFiles\\cmTC_1304a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_1304a.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_44eb6.dir/manifest.res CMakeFiles\\cmTC_44eb6.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1304a.dir/manifest.res CMakeFiles\\cmTC_1304a.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_44eb6.dir\\objects1.rsp /out:cmTC_44eb6.exe /implib:cmTC_44eb6.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-sikbgv\\cmTC_44eb6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_44eb6.dir/intermediate.manifest CMakeFiles\\cmTC_44eb6.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1304a.dir\\objects1.rsp /out:cmTC_1304a.exe /implib:cmTC_1304a.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hfsgh7\\cmTC_1304a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1304a.dir/intermediate.manifest CMakeFiles\\cmTC_1304a.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_44eb6.dir/intermediate.manifest /out:CMakeFiles\\cmTC_44eb6.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_1304a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_1304a.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_44eb6.dir/manifest.res CMakeFiles\\cmTC_44eb6.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_1304a.dir/manifest.res CMakeFiles\\cmTC_1304a.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_44eb6.dir\\objects1.rsp /out:cmTC_44eb6.exe /implib:cmTC_44eb6.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-sikbgv\\cmTC_44eb6.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_44eb6.dir/intermediate.manifest CMakeFiles\\cmTC_44eb6.dir/manifest.res
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_1304a.dir\\objects1.rsp /out:cmTC_1304a.exe /implib:cmTC_1304a.lib /pdb:C:\\Users\\joris\\source\\repos\\TurnBasedBattleSim\\TurnBasedBattleSim\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hfsgh7\\cmTC_1304a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1304a.dir/intermediate.manifest CMakeFiles\\cmTC_1304a.dir/manifest.res
         
       exitCode: 0
   -

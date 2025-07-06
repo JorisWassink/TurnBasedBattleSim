@@ -21,18 +21,22 @@ void RemoveFirstLine(std::string& text) {
 
 void GenericLabel::SetString(const std::string &textS) {
 	textStr += textS;
-	text.setString(textStr);
 }
 
 
 void GenericLabel::render(sf::RenderWindow& window) {
-	text.setString(textStr);
-	text.setPosition(lPosition.x - (text.getLocalBounds().width/2.0f), lPosition.y);
+	std::string localStr;
+	{
+		std::lock_guard<std::mutex> lock(textMutex);
+		localStr = textStr;  // safely copy
+	}
+	text.setString(localStr);
+	text.setPosition(lPosition.x - (text.getLocalBounds().width / 2.0f), lPosition.y);
 	window.draw(text);
 }
 
 void GenericLabel::update() {
-	if (textStr.length() > 150) {
+	while (textStr.length() > 150) {
 		RemoveFirstLine(textStr);
 	}
 }
