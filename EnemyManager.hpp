@@ -28,6 +28,7 @@ class Enemy;
 
 class EnemyManager : public GameObject {
 private:
+    int enemyAmount = 0;
     std::list<EnemyStats> enemyList;
     const std::string identifier;
     Enemy* currentEnemy;

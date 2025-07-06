@@ -3,7 +3,7 @@
 
 #include "Utils.hpp"
 
-Character::Character(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture& texture): animator(Animator()) {
+Character::Character(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture& texture, std::string identifier): GameObject(identifier), animator(Animator()) {
 
 	body.setTexture(texture);
 	body.setScale(size);
@@ -31,9 +31,12 @@ void Character::render(sf::RenderWindow& window)
 void Character::update(){}
 
 bool Character::CheckDeath() {
-	// Zorg ervoor dat deze functie een definitie heeft
-	return false; // Of een echte check
+	if (health <= 0)
+		return true;
+
+	return false;
+
 }
 
-void Character::Turn(Character& target) {}
+void Character::Turn(Character *target) {}
 

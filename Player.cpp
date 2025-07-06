@@ -7,8 +7,7 @@
 
 
 
-Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture &texture) : Character(
-	position, size, color, texture)
+Player::Player(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture &texture, std::string identifier = "") : Character(position, size, color, texture, identifier)
 {
 	Initialize(position, size, color);
 }
@@ -35,7 +34,7 @@ void Player::SetStats(ThreeIntegers stats) {
 	sanity = wits * 2;
 }
 
-void Player::Turn(Character& target) {
+void Player::Turn(Character* target) {
 	turn = true;
 }
 

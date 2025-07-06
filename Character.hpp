@@ -34,13 +34,13 @@ public:
 
 
 
-	Character(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture& texture);
+	Character(sf::Vector2f position, sf::Vector2f size, sf::Color color, sf::Texture& texture, std::string identifier);
 	~Character();
 public:
 	void render(sf::RenderWindow& Window) override;
 	void update() override;
 	virtual bool CheckDeath();
-	virtual void Turn(Character& target);
+	virtual void Turn(Character *target);
 
 };
 

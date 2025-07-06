@@ -27,7 +27,7 @@ EnemyManager::EnemyManager(std::string identifier, sf::Vector2f location, Generi
     texture.loadFromFile("textures/Evil.png");
     currentEnemy = new Enemy(sf::Vector2f(location.x + texture.getSize().x, location.y),
         sf::Vector2f(.5f, .5f),
-        sf::Color::White, *this, texture);
+        sf::Color::White, *this, texture, "Enemy "+ std::to_string(random(0,10000)));
 }
 
 EnemyManager::~EnemyManager() {
@@ -79,6 +79,7 @@ Action getHighestAction(const std::map<Action, float>& actionMap) {
 }
 
 void EnemyManager::CalculateUtilities(Character* target) {
+
     float healthPercentage = (currentEnemy->health / currentEnemy->maxHealth);
     float targetHealthPercentage = target->health / target->maxHealth;
 
@@ -98,10 +99,10 @@ void EnemyManager::CalculateUtilities(Character* target) {
 
 void EnemyManager::EnemyTurn(Character* target) {
     label.SetString("\rEnemy Turn!\n");
-    currentEnemy->fitness += 2;
+    currentEnemy->fitness += .5f;
     CalculateUtilities(target);
 
-    Awaitable awaitable;
+    Awaitable awaitable(500);
     awaitable([this, target] {
         switch (getHighestAction(utilities)) {
             case ATTACK:
@@ -121,9 +122,9 @@ void EnemyManager::EnemyTurn(Character* target) {
         }
 
 
-        Awaitable awaitable2;
+        Awaitable awaitable2(500);
         awaitable2([this, target] {
-            target->Turn(*currentEnemy);
+            target->Turn(currentEnemy);
             label.textStr += "\rTurn Done!\n";
         });
 
@@ -162,12 +163,13 @@ void EnemyManager::PlayerActionResponse(enum Action action , int amount, int sec
 void EnemyManager::Death() {
     if (currentEnemy != nullptr)
     {
-        printf("amount of enemies left: %d \n", enemyList.size());
-        if(enemyList.size() <= 0) {
+        printf("amount of enemies left: %llu \n", enemyList.size());
+        if(enemyList.empty()) {
             printf("making new enemies... \n");
             SortColumns("bestEnemy.csv");
             Breed();
         }
+
         if (!enemyList.empty()) {
             currentEnemy->Initialize(*enemyList.begin());
             enemyList.erase(enemyList.begin());
@@ -214,9 +216,9 @@ void EnemyManager::SortColumns(std::string fileName) {
         }
     }
 
-    for (auto& col : columns) {
-        std::sort(col.begin(), col.end());
-    }
+    // for (auto& col : columns) {
+    //     std::sort(col.begin(), col.end());
+    // }
 
     for (size_t i = 0; i < data.size(); ++i) {
         for (size_t j = 0; j < numCols; ++j) {
@@ -229,8 +231,8 @@ void EnemyManager::SortColumns(std::string fileName) {
     });
 
 
-    if (data.size() > 20) {
-        data.resize(20);
+    if (data.size() > 10) {
+        data.resize(10);
     }
 
     std::ofstream outputFile(fileName);
@@ -272,47 +274,67 @@ void EnemyManager::Breed() {
     std::list<EnemyStats> offspringEnemies;
     std::list<EnemyStats> startEnemies(enemyList.begin(), enemyList.end());
 
-    while (startEnemies.size() > 0 && startEnemies.size() % 2 == 0) {
-        EnemyStats parentOne = startEnemies.front();
-        EnemyStats parentTwo = startEnemies.back();
+    while (!startEnemies.empty() && startEnemies.size() % 2 == 0) {
+        // Randomly select the first parent
+        auto parentIt1 = std::next(startEnemies.begin(), random(0, startEnemies.size() - 1));
+        auto parentOne = *parentIt1;
+
+        // Randomly select the second parent (it must be distinct from the first)
+        auto parentIt2 = std::next(startEnemies.begin(), random(0, startEnemies.size() - 1));
+
+        // Ensure the second parent is not the same as the first one
+        while (parentIt2 == parentIt1 && startEnemies.size() > 1) {
+            parentIt2 = std::next(startEnemies.begin(), random(0, startEnemies.size() - 1));
+        }
+        auto parentTwo = *parentIt2;
+
+        // Now we can safely erase the parents from the list
+        startEnemies.erase(parentIt1);
+        startEnemies.erase(parentIt2);
+
+        // Create offspring
         EnemyStats offspring;
-        offspring.attackChance = random(0,1) ? parentOne.attackChance : parentTwo.attackChance;
-        offspring.prepareChance = random(0,1) ? parentOne.prepareChance : parentTwo.prepareChance;
-        offspring.recoverChance = random(0,1) ? parentOne.recoverChance : parentTwo.recoverChance;
+        offspring.attackChance = random(0, 1) ? parentOne.attackChance : parentTwo.attackChance;
+        offspring.prepareChance = random(0, 1) ? parentOne.prepareChance : parentTwo.prepareChance;
+        offspring.recoverChance = random(0, 1) ? parentOne.recoverChance : parentTwo.recoverChance;
         offspring.lowMagicChance = random(0, 1) ? parentOne.lowMagicChance : parentTwo.lowMagicChance;
         offspring.highMagicChance = random(0, 1) ? parentOne.highMagicChance : parentTwo.highMagicChance;
-        startEnemies.erase(std::find(startEnemies.begin(), startEnemies.end(), parentOne));
-        startEnemies.erase(std::find(startEnemies.begin(), startEnemies.end(), parentTwo));
+
         offspringEnemies.push_back(offspring);
-        printf("made offspring \n");
+        enemyAmount++;
     }
+
+
+
 
     //mutation
     for (auto& offspring: offspringEnemies) {
-        float mutationAmount = randomf(0.8, 1.2);
-        switch(random(0,4)) {
-            case 0:
-                offspring.attackChance *= mutationAmount;
-            break;
-            case 1:
-                offspring.prepareChance *= mutationAmount;
-            break;
-            case 2:
-                offspring.recoverChance *= mutationAmount;
-            break;
-            case 3:
-                offspring.lowMagicChance *= mutationAmount;
-            break;
-            case 4:
-                offspring.highMagicChance *= mutationAmount;
-            break;
-            default:
-                throw std::invalid_argument("Invalid offspring chance!");
+        for (int i = 0; i < 2; i++) {
+            float mutationAmount = randomf(-0.1f, 0.1);
+            switch(random(0,4)) {
+                case 0:
+                    offspring.attackChance +=  mutationAmount;
+                break;
+                case 1:
+                    offspring.prepareChance +=  mutationAmount;
+                break;
+                case 2:
+                    offspring.recoverChance +=  mutationAmount;
+                break;
+                case 3:
+                    offspring.lowMagicChance +=  mutationAmount;
+                break;
+                case 4:
+                    offspring.highMagicChance +=  mutationAmount;
+                break;
+                default:
+                    throw std::invalid_argument("Invalid offspring chance!");
+            }
         }
     }
 
-    printf("amount of offspring made: %d \n", offspringEnemies.size());
-
+    printf("amount of offspring made: %llu \n", offspringEnemies.size());
+    printf("total amount of enemies created: %d \n", enemyAmount);
     enemyList.clear();
     enemyList = offspringEnemies;
 }

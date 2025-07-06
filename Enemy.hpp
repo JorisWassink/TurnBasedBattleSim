@@ -27,7 +27,7 @@ public:
 	float fitness;
 
 
-	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture);
+	Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture, std::string id);
 
 	~Enemy();
 public:
@@ -42,7 +42,7 @@ public:
 
 	void WriteValues(bool won);
 
-	void Turn(Character& target) override;
+	void Turn(Character* target) override;
 
 	void Initialize();
 

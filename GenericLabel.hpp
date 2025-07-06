@@ -18,5 +18,6 @@ public:
 public:
 	void render(sf::RenderWindow& Window) override;
 	void update() override;
+
 	void SetString(const std::string &textS = "");
 };

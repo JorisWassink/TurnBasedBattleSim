@@ -129,7 +129,7 @@ int main() {
     playerTexture.setSmooth(true);
     Player player(sf::Vector2f(screenWidth / 5, screenHeight / 5),
         sf::Vector2f(.5f, .5f),
-        sf::Color::White, playerTexture);
+        sf::Color::White, playerTexture, "player");
 
 
     EnemyManager manager("manager001", sf::Vector2f(screenWidth / 2, screenHeight / 5), textLine);
@@ -145,8 +145,6 @@ int main() {
     levelOneScene.addGameObject(textLine);
 #pragma endregion
 #pragma endregion
-
-
 
 #pragma region BotBattle
     GenericLabel textLine2("Fight!\n", sf::Vector2f(screenHeight / 2, screenHeight / 2));
@@ -184,17 +182,26 @@ int main() {
     });
 
 
-
-
     playButton.setButtonAction([&]() {
-    if (FastestCharacter(manager2.GetEnemy(), manager3.GetEnemy()) == manager2.GetEnemy()) {
-        manager2.EnemyTurn(manager3.GetEnemy());
+        player.SetStats(stats.getStats());
+    if (FastestCharacter(manager.GetEnemy(), &player) == manager.GetEnemy()) {
+        manager.EnemyTurn(&player);
     }
     else {
-        manager3.EnemyTurn(manager2.GetEnemy());
+        player.Turn(manager.GetEnemy());
     }
-    currentScene = &botBattleScene;
+    currentScene = &levelOneScene;
 });
+
+    // playButton.setButtonAction([&]() {
+    // if (FastestCharacter(manager3.GetEnemy(), manager2.GetEnemy()) == manager3.GetEnemy()) {
+    //     manager3.EnemyTurn(manager2.GetEnemy());
+    // }
+    // else {
+    //     manager2.EnemyTurn(manager3.GetEnemy());
+    // }
+    //     currentScene = &botBattleScene;
+    // });
 
     backButton.setButtonAction([&]() {
         currentScene = &mainMenu;
@@ -220,12 +227,12 @@ int main() {
         }
         highScores.textStr = HighScoreLabel::GetHighScores(5);
         window.clear();
-        currentScene->render(window);
         currentScene->update();
+        currentScene->render(window);
         window.display();
 
         if (death) {
-            GameOverText.textStr = "Game Over\nfinal score: " + std::to_string(currentScore);
+            GameOverText.textStr = "Game Over\n final score: " + std::to_string(currentScore);
             currentScene = &GameOverScene;
         }
     }

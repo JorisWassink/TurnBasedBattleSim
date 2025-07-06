@@ -8,7 +8,7 @@
 #include <math.h>
 
 
-Enemy::Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture) : Character(position, size, color, texture), manager(manage)
+Enemy::Enemy(sf::Vector2f position, sf::Vector2f size, sf::Color color, EnemyManager& manage, sf::Texture& texture, std::string id) : Character(position, size, color, texture, id), manager(manage)
 {
 	Initialize();
 }
@@ -55,12 +55,10 @@ void Enemy::Attack(GenericLabel& label, Character* target)  {
 	}
 
 	int damage;
-	if (charged) {
-		damage = strength + random(1, 4) - ceilf(target->strength / 2);
-	}
-	else {
-		damage = random(strength + 2, agility * 2) - ceilf(target->strength / 2);
-	}
+
+
+	damage = random(strength + 2, agility * 2) - ceilf(target->strength / 2);
+
 
 
 	if (damage <= 0) damage = 1;
@@ -71,8 +69,8 @@ void Enemy::Attack(GenericLabel& label, Character* target)  {
 
 	label.textStr += "\renemy attacks and does " + std::to_string(damage) + " damage\n";
 
-	if(target->CheckDeath()) {
-		Enemy* enemyTarget = static_cast<Enemy*>(target);
+	if(target->health <= 0) {
+		Enemy* enemyTarget = dynamic_cast<Enemy*>(target);
 		if (enemyTarget) {
 			enemyTarget->WriteValues(false);
 		}
@@ -104,24 +102,39 @@ void Enemy::Recover(GenericLabel& label) {
 
 void Enemy::CastMagic(GenericLabel& label, Character* target) {
 	int damage;
-	target->health -= wits;
-	damage = wits;
+
+	if (charged)
+		damage = wits * 2;
+	else
+		damage = wits;
+
+
+	target->health -= damage;
+
+
+	fitness += damage;
 
 	label.textStr += "\renemy casts magic and does " + std::to_string(damage) + " damage\n";
-	if(target->CheckDeath())
-		WriteValues(true);}
+	if(target->CheckDeath()) {
+		Enemy* enemyTarget = dynamic_cast<Enemy*>(target);
+		if (enemyTarget) {
+			enemyTarget->WriteValues(false);
+		}
+	}
+}
 
 void Enemy::Tremble(GenericLabel& label) {
 	label.textStr += "\renemy trembles in fear...\n";
 }
 
-void Enemy::Turn(Character& target) {
-	manager.EnemyTurn(&target);
+void Enemy::Turn(Character *target) {
+	manager.EnemyTurn(target);
 }
 
 
 bool Enemy::CheckDeath() {
 	if (health <= 0) {
+		WriteValues(false);
 		return true;
 	}
 	else {
@@ -129,11 +142,15 @@ bool Enemy::CheckDeath() {
 	}
 }
 
+static int count = 0;
+
 void Enemy::WriteValues(bool won) {
 	if (won)
-		fitness += health;
+		fitness += health * 1.5f;
 
 	std::ofstream myFileWrite("bestEnemy.csv", std::ios::app); // Append mode
+	std::ofstream myFileWrite2("EnemyList.csv", std::ios::app); // Append mode
+
 
 	if (myFileWrite) {
 		// Array of values to be written
@@ -143,16 +160,42 @@ void Enemy::WriteValues(bool won) {
 		for (size_t i = 0; i < values.size(); ++i) {
 			myFileWrite << values[i];
 			if (i < values.size() - 1) {
-				myFileWrite << " "; // Add a comma if it's not the last value
+				myFileWrite << " ";
 			}
 		}
 
-		// End the line after the values are written
+		// End the line after the values are writtenA
 		myFileWrite << "\n";
 	} else {
 		std::cerr << "Error: Could not open file for writing." << std::endl;
 	}
 
 	myFileWrite.close();
-	manager.Death();
+
+	if (myFileWrite2) {
+		count++;
+		if(won && count % 5 == 0) {
+			// Array of values to be written
+			std::vector<float> values = { attackChance, prepareChance, recoverChance, lowMagicChance, highMagicChance, fitness };
+
+			// Write the values, ensuring no extra comma after the last value
+			for (size_t i = 0; i < values.size(); ++i) {
+				myFileWrite2 << values[i];
+				if (i < values.size() - 1) {
+					myFileWrite2 << ",";
+				}
+			}
+
+			// End the line after the values are written
+			myFileWrite2 << "\n";
+		}
+	} else {
+		std::cerr << "Error: Could not open file for writing." << std::endl;
+	}
+
+	myFileWrite2.close();
+
+	if (!won)
+		manager.Death();
+
 }
